@@ -1,0 +1,579 @@
+[2025-04-25 15:42:16.832 +01:00] [chrisp] [PID:29632] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-25 15:42:16.844 +01:00] [chrisp] [PID:29632] [INFO    ] Starting background log archiving process...
+[2025-04-25 15:42:16.868 +01:00] [chrisp] [PID:29632] [INFO    ] Archiving logs with last write time older than 2025-03-26.
+[2025-04-25 15:42:16.885 +01:00] [chrisp] [PID:29632] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-25 15:42:16.899 +01:00] [chrisp] [PID:29632] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-25 15:42:16.909 +01:00] [chrisp] [PID:29632] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-25 15:42:16.921 +01:00] [chrisp] [PID:29632] [INFO    ] Background log archiving process completed.
+[2025-04-25 15:42:17.089 +01:00] [chrisp] [PID:29632] [INFO    ] Form Loading...
+[2025-04-25 15:42:17.099 +01:00] [chrisp] [PID:29632] [INFO    ] LastRunDate is empty or not found in configuration. Using default MinValue.
+[2025-04-25 15:42:17.146 +01:00] [chrisp] [PID:29632] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 15:42:17.161 +01:00] [chrisp] [PID:29632] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 15:42:17.172 +01:00] [chrisp] [PID:29632] [WARNING ] Excel template file for the selected report type (Daily) is missing or invalid ('\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly reports\TEMPLATE_Estimate Success Rate.xlsx'). Processing might fail.
+[2025-04-25 15:42:17.182 +01:00] [chrisp] [PID:29632] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 15:42:17.193 +01:00] [chrisp] [PID:29632] [WARNING ] Initial Excel template file path (for Daily/Weekly) is missing or invalid ('\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly reports\TEMPLATE_Estimate Success Rate.xlsx'). Processing might fail.
+[2025-04-25 15:42:17.228 +01:00] [chrisp] [PID:29632] [INFO    ] Theme applied: Dark Mode
+[2025-04-25 15:42:17.238 +01:00] [chrisp] [PID:29632] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 15:42:17.248 +01:00] [chrisp] [PID:29632] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 15:42:17.259 +01:00] [chrisp] [PID:29632] [WARNING ] Excel template file for the selected report type (Daily) is missing or invalid ('\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly reports\TEMPLATE_Estimate Success Rate.xlsx'). Processing might fail.
+[2025-04-25 15:42:17.270 +01:00] [chrisp] [PID:29632] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 15:42:17.292 +01:00] [chrisp] [PID:29632] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:42:17.302 +01:00] [chrisp] [PID:29632] [INFO    ] Form Load Initialisation Complete.
+[2025-04-25 15:43:01.882 +01:00] [chrisp] [PID:29632] [INFO    ] Daily Auto Run Enabled.
+[2025-04-25 15:44:01.876 +01:00] [chrisp] [PID:29632] [DEBUG   ] Disabling controls for Auto Run.
+[2025-04-25 15:44:01.897 +01:00] [chrisp] [PID:29632] [INFO    ] Auto Run: Triggered for today (2025-04-25) at 15:44:01. Last run was 0001-01-01.
+[2025-04-25 15:44:01.910 +01:00] [chrisp] [PID:29632] [INFO    ] Auto Run: Starting automated daily report process...
+[2025-04-25 15:44:01.927 +01:00] [chrisp] [PID:29632] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:44:01.996 +01:00] [chrisp] [PID:29632] [ERROR   ] Failed to create directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:44:02.037 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Failed to create raw output directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:44:02.094 +01:00] [chrisp] [PID:29632] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 15:44:02.124 +01:00] [chrisp] [PID:29632] [INFO    ] Connected to pipe server.
+[2025-04-25 15:44:02.251 +01:00] [chrisp] [PID:29632] [DEBUG   ] Sent request (442 bytes): {"CrystalReportLocation":"\\\\HARLOW-DBVM02\\Tharstern\\Primo\\Reports\\Harlow\\Bespoke\\Estimate\\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt","ReportOutputLocation":"\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ReportDateFrom":"2025-04-25T00:00:00+01:00","ReportDateTo":"2025-04-25T00:00:00+01:00"}
+[2025-04-25 15:44:02.822 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 15:44:02.842 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 25/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 15:44:02.860 +01:00] [WRAPPER] [PID:18084] [ERROR   ] Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: UnauthorizedAccessException: Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:44:02.891 +01:00] [WRAPPER] [PID:18084] [ERROR   ] An error occurred while running the report: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: ReportExportException: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:44:03.118 +01:00] [chrisp] [PID:29632] [DEBUG   ] Expecting response length: 470
+[2025-04-25 15:44:03.130 +01:00] [chrisp] [PID:29632] [DEBUG   ] Received response (470 bytes): {"Success":false,"OutputPath":null,"ErrorMessage":"Report generation failed: ReportExportException - Error exporting report to '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports' is denied."}
+[2025-04-25 15:44:03.245 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Error during automated process: System.Exception: Auto Run Error: Report generation failed: Report generation failed: ReportExportException - Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+   at conversionTest.Form1.RunAutomatedDailyReportAsync() in \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\Form1.cs:line 1763
+[2025-04-25 15:44:03.257 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Daily report failed. See previous logs.
+[2025-04-25 15:44:03.269 +01:00] [chrisp] [PID:29632] [DEBUG   ] Re-enabling controls after Auto Run.
+[2025-04-25 15:44:03.281 +01:00] [chrisp] [PID:29632] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 15:44:03.294 +01:00] [chrisp] [PID:29632] [DEBUG   ] Auto Run: Timer restarted after execution.
+[2025-04-25 15:45:03.290 +01:00] [chrisp] [PID:29632] [DEBUG   ] Disabling controls for Auto Run.
+[2025-04-25 15:45:03.306 +01:00] [chrisp] [PID:29632] [INFO    ] Auto Run: Triggered for today (2025-04-25) at 15:45:03. Last run was 0001-01-01.
+[2025-04-25 15:45:03.318 +01:00] [chrisp] [PID:29632] [INFO    ] Auto Run: Starting automated daily report process...
+[2025-04-25 15:45:03.332 +01:00] [chrisp] [PID:29632] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:45:03.380 +01:00] [chrisp] [PID:29632] [ERROR   ] Failed to create directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:45:03.415 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Failed to create raw output directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:45:03.443 +01:00] [chrisp] [PID:29632] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 15:45:03.467 +01:00] [chrisp] [PID:29632] [INFO    ] Connected to pipe server.
+[2025-04-25 15:45:03.482 +01:00] [chrisp] [PID:29632] [DEBUG   ] Sent request (442 bytes): {"CrystalReportLocation":"\\\\HARLOW-DBVM02\\Tharstern\\Primo\\Reports\\Harlow\\Bespoke\\Estimate\\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt","ReportOutputLocation":"\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ReportDateFrom":"2025-04-25T00:00:00+01:00","ReportDateTo":"2025-04-25T00:00:00+01:00"}
+[2025-04-25 15:45:04.016 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 15:45:04.025 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 25/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 15:45:04.046 +01:00] [WRAPPER] [PID:18084] [ERROR   ] Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: UnauthorizedAccessException: Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:45:04.072 +01:00] [WRAPPER] [PID:18084] [ERROR   ] An error occurred while running the report: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: ReportExportException: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:45:04.083 +01:00] [chrisp] [PID:29632] [DEBUG   ] Expecting response length: 470
+[2025-04-25 15:45:04.094 +01:00] [chrisp] [PID:29632] [DEBUG   ] Received response (470 bytes): {"Success":false,"OutputPath":null,"ErrorMessage":"Report generation failed: ReportExportException - Error exporting report to '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports' is denied."}
+[2025-04-25 15:45:04.134 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Error during automated process: System.Exception: Auto Run Error: Report generation failed: Report generation failed: ReportExportException - Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+   at conversionTest.Form1.RunAutomatedDailyReportAsync() in \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\Form1.cs:line 1763
+[2025-04-25 15:45:04.146 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Daily report failed. See previous logs.
+[2025-04-25 15:45:04.158 +01:00] [chrisp] [PID:29632] [DEBUG   ] Re-enabling controls after Auto Run.
+[2025-04-25 15:45:04.169 +01:00] [chrisp] [PID:29632] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 15:45:04.183 +01:00] [chrisp] [PID:29632] [DEBUG   ] Auto Run: Timer restarted after execution.
+[2025-04-25 15:46:04.180 +01:00] [chrisp] [PID:29632] [DEBUG   ] Disabling controls for Auto Run.
+[2025-04-25 15:46:04.195 +01:00] [chrisp] [PID:29632] [INFO    ] Auto Run: Triggered for today (2025-04-25) at 15:46:04. Last run was 0001-01-01.
+[2025-04-25 15:46:04.208 +01:00] [chrisp] [PID:29632] [INFO    ] Auto Run: Starting automated daily report process...
+[2025-04-25 15:46:04.222 +01:00] [chrisp] [PID:29632] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:46:04.266 +01:00] [chrisp] [PID:29632] [ERROR   ] Failed to create directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:46:04.307 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Failed to create raw output directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:46:04.319 +01:00] [chrisp] [PID:29632] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 15:46:04.340 +01:00] [chrisp] [PID:29632] [INFO    ] Connected to pipe server.
+[2025-04-25 15:46:04.369 +01:00] [chrisp] [PID:29632] [DEBUG   ] Sent request (442 bytes): {"CrystalReportLocation":"\\\\HARLOW-DBVM02\\Tharstern\\Primo\\Reports\\Harlow\\Bespoke\\Estimate\\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt","ReportOutputLocation":"\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ReportDateFrom":"2025-04-25T00:00:00+01:00","ReportDateTo":"2025-04-25T00:00:00+01:00"}
+[2025-04-25 15:46:04.928 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 15:46:04.946 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 25/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 15:46:04.962 +01:00] [WRAPPER] [PID:18084] [ERROR   ] Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: UnauthorizedAccessException: Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:46:05.485 +01:00] [WRAPPER] [PID:18084] [ERROR   ] An error occurred while running the report: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: ReportExportException: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:46:05.497 +01:00] [chrisp] [PID:29632] [DEBUG   ] Expecting response length: 470
+[2025-04-25 15:46:05.513 +01:00] [chrisp] [PID:29632] [DEBUG   ] Received response (470 bytes): {"Success":false,"OutputPath":null,"ErrorMessage":"Report generation failed: ReportExportException - Error exporting report to '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports' is denied."}
+[2025-04-25 15:46:05.555 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Error during automated process: System.Exception: Auto Run Error: Report generation failed: Report generation failed: ReportExportException - Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+   at conversionTest.Form1.RunAutomatedDailyReportAsync() in \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\Form1.cs:line 1763
+[2025-04-25 15:46:05.575 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Daily report failed. See previous logs.
+[2025-04-25 15:46:05.585 +01:00] [chrisp] [PID:29632] [DEBUG   ] Re-enabling controls after Auto Run.
+[2025-04-25 15:46:05.596 +01:00] [chrisp] [PID:29632] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 15:46:05.611 +01:00] [chrisp] [PID:29632] [DEBUG   ] Auto Run: Timer restarted after execution.
+[2025-04-25 15:47:05.611 +01:00] [chrisp] [PID:29632] [DEBUG   ] Disabling controls for Auto Run.
+[2025-04-25 15:47:05.619 +01:00] [chrisp] [PID:29632] [INFO    ] Auto Run: Triggered for today (2025-04-25) at 15:47:05. Last run was 0001-01-01.
+[2025-04-25 15:47:05.631 +01:00] [chrisp] [PID:29632] [INFO    ] Auto Run: Starting automated daily report process...
+[2025-04-25 15:47:05.646 +01:00] [chrisp] [PID:29632] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:47:05.691 +01:00] [chrisp] [PID:29632] [ERROR   ] Failed to create directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:47:05.729 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Failed to create raw output directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:47:05.740 +01:00] [chrisp] [PID:29632] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 15:47:05.759 +01:00] [chrisp] [PID:29632] [INFO    ] Connected to pipe server.
+[2025-04-25 15:47:05.780 +01:00] [chrisp] [PID:29632] [DEBUG   ] Sent request (442 bytes): {"CrystalReportLocation":"\\\\HARLOW-DBVM02\\Tharstern\\Primo\\Reports\\Harlow\\Bespoke\\Estimate\\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt","ReportOutputLocation":"\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ReportDateFrom":"2025-04-25T00:00:00+01:00","ReportDateTo":"2025-04-25T00:00:00+01:00"}
+[2025-04-25 15:47:06.301 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 15:47:06.311 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 25/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 15:47:06.332 +01:00] [WRAPPER] [PID:18084] [ERROR   ] Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: UnauthorizedAccessException: Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:47:06.359 +01:00] [WRAPPER] [PID:18084] [ERROR   ] An error occurred while running the report: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: ReportExportException: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:47:06.370 +01:00] [chrisp] [PID:29632] [DEBUG   ] Expecting response length: 470
+[2025-04-25 15:47:06.382 +01:00] [chrisp] [PID:29632] [DEBUG   ] Received response (470 bytes): {"Success":false,"OutputPath":null,"ErrorMessage":"Report generation failed: ReportExportException - Error exporting report to '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports' is denied."}
+[2025-04-25 15:47:06.428 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Error during automated process: System.Exception: Auto Run Error: Report generation failed: Report generation failed: ReportExportException - Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+   at conversionTest.Form1.RunAutomatedDailyReportAsync() in \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\Form1.cs:line 1763
+[2025-04-25 15:47:06.440 +01:00] [chrisp] [PID:29632] [ERROR   ] Auto Run: Daily report failed. See previous logs.
+[2025-04-25 15:47:06.451 +01:00] [chrisp] [PID:29632] [DEBUG   ] Re-enabling controls after Auto Run.
+[2025-04-25 15:47:06.464 +01:00] [chrisp] [PID:29632] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 15:47:06.477 +01:00] [chrisp] [PID:29632] [DEBUG   ] Auto Run: Timer restarted after execution.
+[2025-04-25 15:47:23.106 +01:00] [chrisp] [PID:31752] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-25 15:47:23.120 +01:00] [chrisp] [PID:31752] [INFO    ] Starting background log archiving process...
+[2025-04-25 15:47:23.139 +01:00] [chrisp] [PID:31752] [INFO    ] Archiving logs with last write time older than 2025-03-26.
+[2025-04-25 15:47:23.160 +01:00] [chrisp] [PID:31752] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-25 15:47:23.177 +01:00] [chrisp] [PID:31752] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-25 15:47:23.190 +01:00] [chrisp] [PID:31752] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-25 15:47:23.207 +01:00] [chrisp] [PID:31752] [INFO    ] Background log archiving process completed.
+[2025-04-25 15:47:23.415 +01:00] [chrisp] [PID:31752] [INFO    ] Form Loading...
+[2025-04-25 15:47:23.427 +01:00] [chrisp] [PID:31752] [INFO    ] LastRunDate is empty or not found in configuration. Using default MinValue.
+[2025-04-25 15:47:23.445 +01:00] [chrisp] [PID:31752] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 15:47:23.464 +01:00] [chrisp] [PID:31752] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 15:47:23.477 +01:00] [chrisp] [PID:31752] [WARNING ] Excel template file for the selected report type (Daily) is missing or invalid ('\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly reports\TEMPLATE_Estimate Success Rate.xlsx'). Processing might fail.
+[2025-04-25 15:47:23.490 +01:00] [chrisp] [PID:31752] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 15:47:23.505 +01:00] [chrisp] [PID:31752] [WARNING ] Initial Excel template file path (for Daily/Weekly) is missing or invalid ('\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly reports\TEMPLATE_Estimate Success Rate.xlsx'). Processing might fail.
+[2025-04-25 15:47:23.537 +01:00] [chrisp] [PID:31752] [INFO    ] Theme applied: Dark Mode
+[2025-04-25 15:47:23.550 +01:00] [chrisp] [PID:31752] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 15:47:23.562 +01:00] [chrisp] [PID:31752] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 15:47:23.573 +01:00] [chrisp] [PID:31752] [WARNING ] Excel template file for the selected report type (Daily) is missing or invalid ('\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly reports\TEMPLATE_Estimate Success Rate.xlsx'). Processing might fail.
+[2025-04-25 15:47:23.586 +01:00] [chrisp] [PID:31752] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 15:47:23.610 +01:00] [chrisp] [PID:31752] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:47:23.625 +01:00] [chrisp] [PID:31752] [INFO    ] Form Load Initialisation Complete.
+[2025-04-25 15:47:26.586 +01:00] [chrisp] [PID:31752] [INFO    ] Daily Auto Run Enabled.
+[2025-04-25 15:48:26.584 +01:00] [chrisp] [PID:31752] [DEBUG   ] Disabling controls for Auto Run.
+[2025-04-25 15:48:26.601 +01:00] [chrisp] [PID:31752] [INFO    ] Auto Run: Triggered for today (2025-04-25) at 15:48:26. Last run was 0001-01-01.
+[2025-04-25 15:48:26.614 +01:00] [chrisp] [PID:31752] [INFO    ] Auto Run: Starting automated daily report process...
+[2025-04-25 15:48:26.630 +01:00] [chrisp] [PID:31752] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:48:26.699 +01:00] [chrisp] [PID:31752] [ERROR   ] Failed to create directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:48:26.737 +01:00] [chrisp] [PID:31752] [ERROR   ] Auto Run: Failed to create raw output directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:48:26.787 +01:00] [chrisp] [PID:31752] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 15:48:26.814 +01:00] [chrisp] [PID:31752] [INFO    ] Connected to pipe server.
+[2025-04-25 15:48:26.932 +01:00] [chrisp] [PID:31752] [DEBUG   ] Sent request (442 bytes): {"CrystalReportLocation":"\\\\HARLOW-DBVM02\\Tharstern\\Primo\\Reports\\Harlow\\Bespoke\\Estimate\\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt","ReportOutputLocation":"\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ReportDateFrom":"2025-04-25T00:00:00+01:00","ReportDateTo":"2025-04-25T00:00:00+01:00"}
+[2025-04-25 15:48:27.431 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 15:48:27.437 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 25/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 15:48:27.457 +01:00] [WRAPPER] [PID:18084] [ERROR   ] Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: UnauthorizedAccessException: Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:48:27.994 +01:00] [WRAPPER] [PID:18084] [ERROR   ] An error occurred while running the report: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: ReportExportException: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:48:28.013 +01:00] [chrisp] [PID:31752] [DEBUG   ] Expecting response length: 470
+[2025-04-25 15:48:28.026 +01:00] [chrisp] [PID:31752] [DEBUG   ] Received response (470 bytes): {"Success":false,"OutputPath":null,"ErrorMessage":"Report generation failed: ReportExportException - Error exporting report to '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports' is denied."}
+[2025-04-25 15:48:28.142 +01:00] [chrisp] [PID:31752] [ERROR   ] Auto Run: Error during automated process: System.Exception: Auto Run Error: Report generation failed: Report generation failed: ReportExportException - Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+   at conversionTest.Form1.RunAutomatedDailyReportAsync() in \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\Form1.cs:line 1763
+[2025-04-25 15:48:28.155 +01:00] [chrisp] [PID:31752] [ERROR   ] Auto Run: Daily report failed. See previous logs.
+[2025-04-25 15:48:28.167 +01:00] [chrisp] [PID:31752] [DEBUG   ] Re-enabling controls after Auto Run.
+[2025-04-25 15:48:28.179 +01:00] [chrisp] [PID:31752] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 15:48:28.195 +01:00] [chrisp] [PID:31752] [DEBUG   ] Auto Run: Timer restarted after execution.
+[2025-04-25 15:49:28.203 +01:00] [chrisp] [PID:31752] [DEBUG   ] Disabling controls for Auto Run.
+[2025-04-25 15:49:28.217 +01:00] [chrisp] [PID:31752] [INFO    ] Auto Run: Triggered for today (2025-04-25) at 15:49:28. Last run was 0001-01-01.
+[2025-04-25 15:49:28.230 +01:00] [chrisp] [PID:31752] [INFO    ] Auto Run: Starting automated daily report process...
+[2025-04-25 15:49:28.243 +01:00] [chrisp] [PID:31752] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:49:28.288 +01:00] [chrisp] [PID:31752] [ERROR   ] Failed to create directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:49:28.325 +01:00] [chrisp] [PID:31752] [ERROR   ] Auto Run: Failed to create raw output directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports': Access to the path '\\harlow.local\DFS\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:49:28.336 +01:00] [chrisp] [PID:31752] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 15:49:28.359 +01:00] [chrisp] [PID:31752] [INFO    ] Connected to pipe server.
+[2025-04-25 15:49:28.377 +01:00] [WRAPPER] [PID:18084] [WARNING ] Report directory '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' does not exist. Skipping cleanup.
+[2025-04-25 15:49:28.891 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 15:49:28.902 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 25/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 15:49:28.912 +01:00] [WRAPPER] [PID:18084] [ERROR   ] Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: UnauthorizedAccessException: Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:49:28.945 +01:00] [WRAPPER] [PID:18084] [ERROR   ] An error occurred while running the report: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied. Exception: ReportExportException: Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+[2025-04-25 15:49:28.956 +01:00] [chrisp] [PID:31752] [DEBUG   ] Expecting response length: 470
+[2025-04-25 15:49:28.967 +01:00] [chrisp] [PID:31752] [DEBUG   ] Received response (470 bytes): {"Success":false,"OutputPath":null,"ErrorMessage":"Report generation failed: ReportExportException - Error exporting report to '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports' is denied."}
+[2025-04-25 15:49:29.009 +01:00] [chrisp] [PID:31752] [ERROR   ] Auto Run: Error during automated process: System.Exception: Auto Run Error: Report generation failed: Report generation failed: ReportExportException - Error exporting report to '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx': Access to the path '\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports' is denied.
+   at conversionTest.Form1.RunAutomatedDailyReportAsync() in \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\Form1.cs:line 1763
+[2025-04-25 15:49:29.021 +01:00] [chrisp] [PID:31752] [ERROR   ] Auto Run: Daily report failed. See previous logs.
+[2025-04-25 15:49:29.035 +01:00] [chrisp] [PID:31752] [DEBUG   ] Re-enabling controls after Auto Run.
+[2025-04-25 15:49:29.049 +01:00] [chrisp] [PID:31752] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 15:49:29.065 +01:00] [chrisp] [PID:31752] [DEBUG   ] Auto Run: Timer restarted after execution.
+[2025-04-25 15:49:47.208 +01:00] [chrisp] [PID:13316] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-25 15:49:47.221 +01:00] [chrisp] [PID:13316] [INFO    ] Starting background log archiving process...
+[2025-04-25 15:49:47.233 +01:00] [chrisp] [PID:13316] [INFO    ] Archiving logs with last write time older than 2025-03-26.
+[2025-04-25 15:49:47.249 +01:00] [chrisp] [PID:13316] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-25 15:49:47.267 +01:00] [chrisp] [PID:13316] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-25 15:49:47.282 +01:00] [chrisp] [PID:13316] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-25 15:49:47.291 +01:00] [chrisp] [PID:13316] [INFO    ] Background log archiving process completed.
+[2025-04-25 15:49:47.478 +01:00] [chrisp] [PID:13316] [INFO    ] Form Loading...
+[2025-04-25 15:49:47.514 +01:00] [chrisp] [PID:13316] [WARNING ] appsettings.json not found at '\\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\bin\Debug\net8.0-windows7.0\appsettings.json'. Cannot read LastRunDate.
+[2025-04-25 15:49:47.531 +01:00] [chrisp] [PID:13316] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 15:49:47.548 +01:00] [chrisp] [PID:13316] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 15:49:47.557 +01:00] [chrisp] [PID:13316] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 15:49:47.566 +01:00] [chrisp] [PID:13316] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 15:49:47.592 +01:00] [chrisp] [PID:13316] [INFO    ] Theme applied: Dark Mode
+[2025-04-25 15:49:47.601 +01:00] [chrisp] [PID:13316] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 15:49:47.611 +01:00] [chrisp] [PID:13316] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 15:49:47.632 +01:00] [chrisp] [PID:13316] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 15:49:47.640 +01:00] [chrisp] [PID:13316] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 15:49:47.660 +01:00] [chrisp] [PID:13316] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:49:47.669 +01:00] [chrisp] [PID:13316] [INFO    ] Form Load Initialisation Complete.
+[2025-04-25 15:53:05.801 +01:00] [chrisp] [PID:9944] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-25 15:53:05.819 +01:00] [chrisp] [PID:9944] [INFO    ] Starting background log archiving process...
+[2025-04-25 15:53:05.837 +01:00] [chrisp] [PID:9944] [INFO    ] Archiving logs with last write time older than 2025-03-26.
+[2025-04-25 15:53:05.857 +01:00] [chrisp] [PID:9944] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-25 15:53:05.871 +01:00] [chrisp] [PID:9944] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-25 15:53:05.886 +01:00] [chrisp] [PID:9944] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-25 15:53:05.902 +01:00] [chrisp] [PID:9944] [INFO    ] Background log archiving process completed.
+[2025-04-25 15:53:06.105 +01:00] [chrisp] [PID:9944] [INFO    ] Form Loading...
+[2025-04-25 15:53:06.177 +01:00] [chrisp] [PID:9944] [WARNING ] appsettings.json not found at '\\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\bin\Debug\net8.0-windows7.0\appsettings.json'. Cannot read LastRunDate.
+[2025-04-25 15:53:06.244 +01:00] [chrisp] [PID:9944] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 15:53:06.266 +01:00] [chrisp] [PID:9944] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 15:53:06.280 +01:00] [chrisp] [PID:9944] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 15:53:06.294 +01:00] [chrisp] [PID:9944] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 15:53:06.327 +01:00] [chrisp] [PID:9944] [INFO    ] Theme applied: Dark Mode
+[2025-04-25 15:53:06.340 +01:00] [chrisp] [PID:9944] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 15:53:06.355 +01:00] [chrisp] [PID:9944] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 15:53:06.368 +01:00] [chrisp] [PID:9944] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 15:53:06.386 +01:00] [chrisp] [PID:9944] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 15:53:06.412 +01:00] [chrisp] [PID:9944] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:53:06.424 +01:00] [chrisp] [PID:9944] [INFO    ] Form Load Initialisation Complete.
+[2025-04-25 15:53:07.338 +01:00] [chrisp] [PID:9944] [INFO    ] Daily Auto Run Enabled.
+[2025-04-25 15:54:07.337 +01:00] [chrisp] [PID:9944] [DEBUG   ] Disabling controls for Auto Run.
+[2025-04-25 15:54:07.349 +01:00] [chrisp] [PID:9944] [INFO    ] Auto Run: Triggered for today (2025-04-25) at 15:54:07. Last run was 0001-01-01.
+[2025-04-25 15:54:07.361 +01:00] [chrisp] [PID:9944] [INFO    ] Auto Run: Starting automated daily report process...
+[2025-04-25 15:54:07.375 +01:00] [chrisp] [PID:9944] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 15:54:07.388 +01:00] [chrisp] [PID:9944] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 15:54:07.408 +01:00] [chrisp] [PID:9944] [INFO    ] Connected to pipe server.
+[2025-04-25 15:54:07.523 +01:00] [chrisp] [PID:9944] [DEBUG   ] Sent request (459 bytes): {"CrystalReportLocation":"\\\\HARLOW-DBVM02\\Tharstern\\Primo\\Reports\\Harlow\\Bespoke\\Estimate\\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt","ReportOutputLocation":"C:\\Users\\chrisp\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ReportDateFrom":"2025-04-25T00:00:00+01:00","ReportDateTo":"2025-04-25T00:00:00+01:00"}
+[2025-04-25 15:54:08.067 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 15:54:08.080 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 25/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 15:54:08.613 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report exported successfully to: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 15:54:09.150 +01:00] [chrisp] [PID:9944] [DEBUG   ] Expecting response length: 242
+[2025-04-25 15:54:09.166 +01:00] [chrisp] [PID:9944] [DEBUG   ] Received response (242 bytes): {"Success":true,"OutputPath":"C:\\Users\\chrisp\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ErrorMessage":null}
+[2025-04-25 15:54:09.195 +01:00] [chrisp] [PID:9944] [INFO    ] Auto Run: Raw report generated: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 15:54:09.210 +01:00] [chrisp] [PID:9944] [INFO    ] Auto Run: Deleted existing file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 15:54:09.349 +01:00] [chrisp] [PID:9944] [INFO    ] Ensured report output folder exists: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4
+[2025-04-25 15:54:09.361 +01:00] [chrisp] [PID:9944] [DEBUG   ] Using temporary file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_b23f3b3f-7165-44c6-b360-f2b6d1d231bb.xlsx
+[2025-04-25 15:54:10.250 +01:00] [chrisp] [PID:9944] [INFO    ] Cleared existing data (rows 2 onwards) from sheet 'DATA'.
+[2025-04-25 15:54:10.264 +01:00] [chrisp] [PID:9944] [DEBUG   ] Source dimensions: 62 rows, 13 cols. Start copy from R1C1.
+[2025-04-25 15:54:10.291 +01:00] [chrisp] [PID:9944] [INFO    ] Copied range A1:M62 from Sheet1 to DATA!A2.
+[2025-04-25 15:54:10.305 +01:00] [chrisp] [PID:9944] [DEBUG   ] Filename determined for Analysis sheet population: 20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 15:54:10.321 +01:00] [chrisp] [PID:9944] [INFO    ] Populated 'Analysis' with 35 unique customers starting at row 6.
+[2025-04-25 15:54:11.783 +01:00] [chrisp] [PID:9944] [INFO    ] Triggered calculation for sheet 'Analysis'.
+[2025-04-25 15:54:11.795 +01:00] [chrisp] [PID:9944] [INFO    ] Sheet 'Analysis' calculations performed.
+[2025-04-25 15:54:11.808 +01:00] [chrisp] [PID:9944] [DEBUG   ] Sheet 'Analysis': Total rows: 2000, Last customer found at row: 40 (Data starts row 6)
+[2025-04-25 15:54:11.820 +01:00] [chrisp] [PID:9944] [INFO    ] Clearing cell values (setting to null) in range B41:N2000 (below last customer row 40) in sheet 'Analysis'.
+[2025-04-25 15:54:11.861 +01:00] [chrisp] [PID:9944] [INFO    ] Cleared cell values in 1960 rows below the last customer.
+[2025-04-25 15:54:11.875 +01:00] [chrisp] [PID:9944] [INFO    ] Cleaned content below last customer in sheet 'Analysis'.
+[2025-04-25 15:54:12.056 +01:00] [chrisp] [PID:9944] [DEBUG   ] Saved changes to temporary file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_b23f3b3f-7165-44c6-b360-f2b6d1d231bb.xlsx
+[2025-04-25 15:54:12.577 +01:00] [chrisp] [PID:9944] [DEBUG   ] Brief delay completed after disposing destination package.
+[2025-04-25 15:54:12.588 +01:00] [chrisp] [PID:9944] [DEBUG   ] Generated final filename: 20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 15:54:12.596 +01:00] [chrisp] [PID:9944] [DEBUG   ] Full final file path: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 15:54:12.606 +01:00] [chrisp] [PID:9944] [INFO    ] Attempting to rename file.
+[2025-04-25 15:54:12.616 +01:00] [chrisp] [PID:9944] [INFO    ] Source (Temp): 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_b23f3b3f-7165-44c6-b360-f2b6d1d231bb.xlsx'
+[2025-04-25 15:54:12.625 +01:00] [chrisp] [PID:9944] [INFO    ] Destination (Final): 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx'
+[2025-04-25 15:54:12.636 +01:00] [chrisp] [PID:9944] [INFO    ] Successfully renamed/moved 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_b23f3b3f-7165-44c6-b360-f2b6d1d231bb.xlsx' to 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx'.
+[2025-04-25 15:54:12.645 +01:00] [chrisp] [PID:9944] [INFO    ] Excel processing finished. Final file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 15:54:12.654 +01:00] [chrisp] [PID:9944] [INFO    ] Auto Run: Report processed: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 15:54:12.663 +01:00] [chrisp] [PID:9944] [INFO    ] Auto Run (DEBUG): Sending email to Debug recipients.
+[2025-04-25 15:54:12.679 +01:00] [chrisp] [PID:9944] [INFO    ] Preparing email...
+[2025-04-25 15:54:12.689 +01:00] [chrisp] [PID:9944] [DEBUG   ] Recipients added. To: chrisp@harlowsolutions.co.uk, CC: chrisp@harlowsolutions.co.uk
+[2025-04-25 15:54:12.700 +01:00] [chrisp] [PID:9944] [DEBUG   ] Attachment added: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 15:54:12.708 +01:00] [chrisp] [PID:9944] [INFO    ] Connecting to SMTP server: harlowsolutions-co-uk.mail.protection.outlook.com:25
+[2025-04-25 15:54:12.745 +01:00] [chrisp] [PID:9944] [DEBUG   ] Using provided SMTP credentials.
+[2025-04-25 15:54:12.754 +01:00] [chrisp] [PID:9944] [INFO    ] Attempting to send email. Subject: 'AUTOMATED: Daily Estimate Success Rate Report (2025-04-25)'
+[2025-04-25 15:54:13.399 +01:00] [chrisp] [PID:9944] [INFO    ] Email sent successfully to chrisp@harlowsolutions.co.uk. Subject: 'AUTOMATED: Daily Estimate Success Rate Report (2025-04-25)'
+[2025-04-25 15:54:13.410 +01:00] [chrisp] [PID:9944] [INFO    ] Auto Run: Email sent successfully.
+[2025-04-25 15:54:13.419 +01:00] [chrisp] [PID:9944] [ERROR   ] appsettings.json not found at '\\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\bin\Debug\net8.0-windows7.0\appsettings.json'. Cannot save LastRunDate.
+[2025-04-25 15:54:13.428 +01:00] [chrisp] [PID:9944] [INFO    ] Auto Run: Daily report completed successfully.
+[2025-04-25 15:54:13.437 +01:00] [chrisp] [PID:9944] [DEBUG   ] Re-enabling controls after Auto Run.
+[2025-04-25 15:54:13.447 +01:00] [chrisp] [PID:9944] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 15:54:13.459 +01:00] [chrisp] [PID:9944] [DEBUG   ] Auto Run: Timer remains stopped as user disabled it.
+[2025-04-25 16:04:58.146 +01:00] [chrisp] [PID:4260] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-25 16:04:58.172 +01:00] [chrisp] [PID:4260] [INFO    ] Starting background log archiving process...
+[2025-04-25 16:04:58.188 +01:00] [chrisp] [PID:4260] [INFO    ] Archiving logs with last write time older than 2025-03-26.
+[2025-04-25 16:04:58.202 +01:00] [chrisp] [PID:4260] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-25 16:04:58.228 +01:00] [chrisp] [PID:4260] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-25 16:04:58.245 +01:00] [chrisp] [PID:4260] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-25 16:04:58.255 +01:00] [chrisp] [PID:4260] [INFO    ] Background log archiving process completed.
+[2025-04-25 16:04:58.532 +01:00] [chrisp] [PID:4260] [INFO    ] Form Loading...
+[2025-04-25 16:04:58.627 +01:00] [chrisp] [PID:4260] [WARNING ] appsettings.json not found at '\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json\appsettings.json'. Cannot read LastRunDate.
+[2025-04-25 16:04:58.693 +01:00] [chrisp] [PID:4260] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:04:58.711 +01:00] [chrisp] [PID:4260] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 16:04:58.722 +01:00] [chrisp] [PID:4260] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:04:58.735 +01:00] [chrisp] [PID:4260] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:04:58.764 +01:00] [chrisp] [PID:4260] [INFO    ] Theme applied: Dark Mode
+[2025-04-25 16:04:58.774 +01:00] [chrisp] [PID:4260] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:04:58.783 +01:00] [chrisp] [PID:4260] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 16:04:58.794 +01:00] [chrisp] [PID:4260] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:04:58.803 +01:00] [chrisp] [PID:4260] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:04:58.828 +01:00] [chrisp] [PID:4260] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 16:04:58.838 +01:00] [chrisp] [PID:4260] [INFO    ] Form Load Initialisation Complete.
+[2025-04-25 16:04:59.937 +01:00] [chrisp] [PID:4260] [INFO    ] Daily Auto Run Enabled.
+[2025-04-25 16:05:59.934 +01:00] [chrisp] [PID:4260] [DEBUG   ] Disabling controls for Auto Run.
+[2025-04-25 16:05:59.958 +01:00] [chrisp] [PID:4260] [INFO    ] Auto Run: Triggered for today (2025-04-25) at 16:05:59. Last run was 0001-01-01.
+[2025-04-25 16:05:59.972 +01:00] [chrisp] [PID:4260] [INFO    ] Auto Run: Starting automated daily report process...
+[2025-04-25 16:05:59.988 +01:00] [chrisp] [PID:4260] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 16:06:00.004 +01:00] [chrisp] [PID:4260] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 16:06:00.037 +01:00] [chrisp] [PID:4260] [INFO    ] Connected to pipe server.
+[2025-04-25 16:06:00.151 +01:00] [chrisp] [PID:4260] [DEBUG   ] Sent request (459 bytes): {"CrystalReportLocation":"\\\\HARLOW-DBVM02\\Tharstern\\Primo\\Reports\\Harlow\\Bespoke\\Estimate\\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt","ReportOutputLocation":"C:\\Users\\chrisp\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ReportDateFrom":"2025-04-25T00:00:00+01:00","ReportDateTo":"2025-04-25T00:00:00+01:00"}
+[2025-04-25 16:06:00.695 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 16:06:00.706 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 25/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 16:06:01.206 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report exported successfully to: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:06:01.242 +01:00] [chrisp] [PID:4260] [DEBUG   ] Expecting response length: 242
+[2025-04-25 16:06:01.254 +01:00] [chrisp] [PID:4260] [DEBUG   ] Received response (242 bytes): {"Success":true,"OutputPath":"C:\\Users\\chrisp\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ErrorMessage":null}
+[2025-04-25 16:06:01.281 +01:00] [chrisp] [PID:4260] [INFO    ] Auto Run: Raw report generated: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:06:01.296 +01:00] [chrisp] [PID:4260] [INFO    ] Auto Run: Deleted existing file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:06:01.452 +01:00] [chrisp] [PID:4260] [INFO    ] Ensured report output folder exists: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4
+[2025-04-25 16:06:01.465 +01:00] [chrisp] [PID:4260] [DEBUG   ] Using temporary file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_f0e8dfdc-822a-4d18-b335-ee33720a58dc.xlsx
+[2025-04-25 16:06:02.304 +01:00] [chrisp] [PID:4260] [INFO    ] Cleared existing data (rows 2 onwards) from sheet 'DATA'.
+[2025-04-25 16:06:02.317 +01:00] [chrisp] [PID:4260] [DEBUG   ] Source dimensions: 64 rows, 13 cols. Start copy from R1C1.
+[2025-04-25 16:06:02.345 +01:00] [chrisp] [PID:4260] [INFO    ] Copied range A1:M64 from Sheet1 to DATA!A2.
+[2025-04-25 16:06:02.359 +01:00] [chrisp] [PID:4260] [DEBUG   ] Filename determined for Analysis sheet population: 20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:06:02.375 +01:00] [chrisp] [PID:4260] [INFO    ] Populated 'Analysis' with 36 unique customers starting at row 6.
+[2025-04-25 16:06:03.865 +01:00] [chrisp] [PID:4260] [INFO    ] Triggered calculation for sheet 'Analysis'.
+[2025-04-25 16:06:03.877 +01:00] [chrisp] [PID:4260] [INFO    ] Sheet 'Analysis' calculations performed.
+[2025-04-25 16:06:03.890 +01:00] [chrisp] [PID:4260] [DEBUG   ] Sheet 'Analysis': Total rows: 2000, Last customer found at row: 41 (Data starts row 6)
+[2025-04-25 16:06:03.901 +01:00] [chrisp] [PID:4260] [INFO    ] Clearing cell values (setting to null) in range B42:N2000 (below last customer row 41) in sheet 'Analysis'.
+[2025-04-25 16:06:03.961 +01:00] [chrisp] [PID:4260] [INFO    ] Cleared cell values in 1959 rows below the last customer.
+[2025-04-25 16:06:03.975 +01:00] [chrisp] [PID:4260] [INFO    ] Cleaned content below last customer in sheet 'Analysis'.
+[2025-04-25 16:06:04.187 +01:00] [chrisp] [PID:4260] [DEBUG   ] Saved changes to temporary file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_f0e8dfdc-822a-4d18-b335-ee33720a58dc.xlsx
+[2025-04-25 16:06:04.725 +01:00] [chrisp] [PID:4260] [DEBUG   ] Brief delay completed after disposing destination package.
+[2025-04-25 16:06:04.738 +01:00] [chrisp] [PID:4260] [DEBUG   ] Generated final filename: 20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:06:04.747 +01:00] [chrisp] [PID:4260] [DEBUG   ] Full final file path: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:06:04.760 +01:00] [chrisp] [PID:4260] [INFO    ] Attempting to rename file.
+[2025-04-25 16:06:04.772 +01:00] [chrisp] [PID:4260] [INFO    ] Source (Temp): 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_f0e8dfdc-822a-4d18-b335-ee33720a58dc.xlsx'
+[2025-04-25 16:06:04.783 +01:00] [chrisp] [PID:4260] [INFO    ] Destination (Final): 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx'
+[2025-04-25 16:06:04.795 +01:00] [chrisp] [PID:4260] [INFO    ] Successfully renamed/moved 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_f0e8dfdc-822a-4d18-b335-ee33720a58dc.xlsx' to 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx'.
+[2025-04-25 16:06:04.807 +01:00] [chrisp] [PID:4260] [INFO    ] Excel processing finished. Final file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:06:04.818 +01:00] [chrisp] [PID:4260] [INFO    ] Auto Run: Report processed: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:06:04.829 +01:00] [chrisp] [PID:4260] [INFO    ] Auto Run (DEBUG): Sending email to Debug recipients.
+[2025-04-25 16:06:04.846 +01:00] [chrisp] [PID:4260] [INFO    ] Preparing email...
+[2025-04-25 16:06:04.859 +01:00] [chrisp] [PID:4260] [DEBUG   ] Recipients added. To: chrisp@harlowsolutions.co.uk, CC: chrisp@harlowsolutions.co.uk
+[2025-04-25 16:06:04.882 +01:00] [chrisp] [PID:4260] [DEBUG   ] Attachment added: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:06:04.894 +01:00] [chrisp] [PID:4260] [INFO    ] Connecting to SMTP server: harlowsolutions-co-uk.mail.protection.outlook.com:25
+[2025-04-25 16:06:04.934 +01:00] [chrisp] [PID:4260] [DEBUG   ] Using provided SMTP credentials.
+[2025-04-25 16:06:04.944 +01:00] [chrisp] [PID:4260] [INFO    ] Attempting to send email. Subject: 'AUTOMATED: Daily Estimate Success Rate Report (2025-04-25)'
+[2025-04-25 16:06:05.774 +01:00] [chrisp] [PID:4260] [INFO    ] Email sent successfully to chrisp@harlowsolutions.co.uk. Subject: 'AUTOMATED: Daily Estimate Success Rate Report (2025-04-25)'
+[2025-04-25 16:06:05.786 +01:00] [chrisp] [PID:4260] [INFO    ] Auto Run: Email sent successfully.
+[2025-04-25 16:06:05.797 +01:00] [chrisp] [PID:4260] [ERROR   ] appsettings.json not found at '\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json\appsettings.json'. Cannot save LastRunDate.
+[2025-04-25 16:06:05.809 +01:00] [chrisp] [PID:4260] [INFO    ] Auto Run: Daily report completed successfully.
+[2025-04-25 16:06:05.822 +01:00] [chrisp] [PID:4260] [DEBUG   ] Re-enabling controls after Auto Run.
+[2025-04-25 16:06:05.833 +01:00] [chrisp] [PID:4260] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 16:06:05.846 +01:00] [chrisp] [PID:4260] [DEBUG   ] Auto Run: Timer remains stopped as user disabled it.
+[2025-04-25 16:07:08.617 +01:00] [chrisp] [PID:27852] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-25 16:07:08.632 +01:00] [chrisp] [PID:27852] [INFO    ] Starting background log archiving process...
+[2025-04-25 16:07:08.645 +01:00] [chrisp] [PID:27852] [INFO    ] Archiving logs with last write time older than 2025-03-26.
+[2025-04-25 16:07:08.660 +01:00] [chrisp] [PID:27852] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-25 16:07:08.679 +01:00] [chrisp] [PID:27852] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-25 16:07:08.692 +01:00] [chrisp] [PID:27852] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-25 16:07:08.703 +01:00] [chrisp] [PID:27852] [INFO    ] Background log archiving process completed.
+[2025-04-25 16:07:08.883 +01:00] [chrisp] [PID:27852] [INFO    ] Form Loading...
+[2025-04-25 16:07:08.924 +01:00] [chrisp] [PID:27852] [WARNING ] appsettings.json not found at '\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json'. Cannot read LastRunDate.
+[2025-04-25 16:07:08.938 +01:00] [chrisp] [PID:27852] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:07:08.965 +01:00] [chrisp] [PID:27852] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 16:07:08.974 +01:00] [chrisp] [PID:27852] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:07:08.984 +01:00] [chrisp] [PID:27852] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:07:09.015 +01:00] [chrisp] [PID:27852] [INFO    ] Theme applied: Dark Mode
+[2025-04-25 16:07:09.026 +01:00] [chrisp] [PID:27852] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:07:09.036 +01:00] [chrisp] [PID:27852] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 16:07:09.047 +01:00] [chrisp] [PID:27852] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:07:09.055 +01:00] [chrisp] [PID:27852] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:07:09.085 +01:00] [chrisp] [PID:27852] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 16:07:09.135 +01:00] [chrisp] [PID:27852] [INFO    ] Form Load Initialisation Complete.
+[2025-04-25 16:07:09.874 +01:00] [chrisp] [PID:27852] [INFO    ] Daily Auto Run Enabled.
+[2025-04-25 16:08:09.873 +01:00] [chrisp] [PID:27852] [DEBUG   ] Disabling controls for Auto Run.
+[2025-04-25 16:08:09.884 +01:00] [chrisp] [PID:27852] [INFO    ] Auto Run: Triggered for today (2025-04-25) at 16:08:09. Last run was 0001-01-01.
+[2025-04-25 16:08:09.895 +01:00] [chrisp] [PID:27852] [INFO    ] Auto Run: Starting automated daily report process...
+[2025-04-25 16:08:09.908 +01:00] [chrisp] [PID:27852] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 16:08:09.919 +01:00] [chrisp] [PID:27852] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 16:08:09.944 +01:00] [chrisp] [PID:27852] [INFO    ] Connected to pipe server.
+[2025-04-25 16:08:10.050 +01:00] [chrisp] [PID:27852] [DEBUG   ] Sent request (459 bytes): {"CrystalReportLocation":"\\\\HARLOW-DBVM02\\Tharstern\\Primo\\Reports\\Harlow\\Bespoke\\Estimate\\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt","ReportOutputLocation":"C:\\Users\\chrisp\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ReportDateFrom":"2025-04-25T00:00:00+01:00","ReportDateTo":"2025-04-25T00:00:00+01:00"}
+[2025-04-25 16:08:10.614 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 16:08:10.627 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 25/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 16:08:11.087 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report exported successfully to: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:08:11.122 +01:00] [chrisp] [PID:27852] [DEBUG   ] Expecting response length: 242
+[2025-04-25 16:08:11.130 +01:00] [chrisp] [PID:27852] [DEBUG   ] Received response (242 bytes): {"Success":true,"OutputPath":"C:\\Users\\chrisp\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ErrorMessage":null}
+[2025-04-25 16:08:11.154 +01:00] [chrisp] [PID:27852] [INFO    ] Auto Run: Raw report generated: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:08:11.164 +01:00] [chrisp] [PID:27852] [INFO    ] Auto Run: Deleted existing file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:08:11.281 +01:00] [chrisp] [PID:27852] [INFO    ] Ensured report output folder exists: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4
+[2025-04-25 16:08:11.291 +01:00] [chrisp] [PID:27852] [DEBUG   ] Using temporary file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_4bc97814-8163-4764-9301-11ed00f24ba1.xlsx
+[2025-04-25 16:08:12.105 +01:00] [chrisp] [PID:27852] [INFO    ] Cleared existing data (rows 2 onwards) from sheet 'DATA'.
+[2025-04-25 16:08:12.115 +01:00] [chrisp] [PID:27852] [DEBUG   ] Source dimensions: 64 rows, 13 cols. Start copy from R1C1.
+[2025-04-25 16:08:12.139 +01:00] [chrisp] [PID:27852] [INFO    ] Copied range A1:M64 from Sheet1 to DATA!A2.
+[2025-04-25 16:08:12.150 +01:00] [chrisp] [PID:27852] [DEBUG   ] Filename determined for Analysis sheet population: 20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:08:12.163 +01:00] [chrisp] [PID:27852] [INFO    ] Populated 'Analysis' with 36 unique customers starting at row 6.
+[2025-04-25 16:08:13.626 +01:00] [chrisp] [PID:27852] [INFO    ] Triggered calculation for sheet 'Analysis'.
+[2025-04-25 16:08:13.637 +01:00] [chrisp] [PID:27852] [INFO    ] Sheet 'Analysis' calculations performed.
+[2025-04-25 16:08:13.650 +01:00] [chrisp] [PID:27852] [DEBUG   ] Sheet 'Analysis': Total rows: 2000, Last customer found at row: 41 (Data starts row 6)
+[2025-04-25 16:08:13.662 +01:00] [chrisp] [PID:27852] [INFO    ] Clearing cell values (setting to null) in range B42:N2000 (below last customer row 41) in sheet 'Analysis'.
+[2025-04-25 16:08:13.727 +01:00] [chrisp] [PID:27852] [INFO    ] Cleared cell values in 1959 rows below the last customer.
+[2025-04-25 16:08:13.741 +01:00] [chrisp] [PID:27852] [INFO    ] Cleaned content below last customer in sheet 'Analysis'.
+[2025-04-25 16:08:13.947 +01:00] [chrisp] [PID:27852] [DEBUG   ] Saved changes to temporary file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_4bc97814-8163-4764-9301-11ed00f24ba1.xlsx
+[2025-04-25 16:08:14.475 +01:00] [chrisp] [PID:27852] [DEBUG   ] Brief delay completed after disposing destination package.
+[2025-04-25 16:08:14.490 +01:00] [chrisp] [PID:27852] [DEBUG   ] Generated final filename: 20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:08:14.500 +01:00] [chrisp] [PID:27852] [DEBUG   ] Full final file path: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:08:14.512 +01:00] [chrisp] [PID:27852] [INFO    ] Attempting to rename file.
+[2025-04-25 16:08:14.524 +01:00] [chrisp] [PID:27852] [INFO    ] Source (Temp): 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_4bc97814-8163-4764-9301-11ed00f24ba1.xlsx'
+[2025-04-25 16:08:14.536 +01:00] [chrisp] [PID:27852] [INFO    ] Destination (Final): 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx'
+[2025-04-25 16:08:14.551 +01:00] [chrisp] [PID:27852] [INFO    ] Successfully renamed/moved 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_4bc97814-8163-4764-9301-11ed00f24ba1.xlsx' to 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx'.
+[2025-04-25 16:08:14.563 +01:00] [chrisp] [PID:27852] [INFO    ] Excel processing finished. Final file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:08:14.573 +01:00] [chrisp] [PID:27852] [INFO    ] Auto Run: Report processed: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:08:14.585 +01:00] [chrisp] [PID:27852] [INFO    ] Auto Run (DEBUG): Sending email to Debug recipients.
+[2025-04-25 16:08:14.603 +01:00] [chrisp] [PID:27852] [INFO    ] Preparing email...
+[2025-04-25 16:08:14.617 +01:00] [chrisp] [PID:27852] [DEBUG   ] Recipients added. To: chrisp@harlowsolutions.co.uk, CC: chrisp@harlowsolutions.co.uk
+[2025-04-25 16:08:14.639 +01:00] [chrisp] [PID:27852] [DEBUG   ] Attachment added: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:08:14.650 +01:00] [chrisp] [PID:27852] [INFO    ] Connecting to SMTP server: harlowsolutions-co-uk.mail.protection.outlook.com:25
+[2025-04-25 16:08:14.691 +01:00] [chrisp] [PID:27852] [DEBUG   ] Using provided SMTP credentials.
+[2025-04-25 16:08:14.703 +01:00] [chrisp] [PID:27852] [INFO    ] Attempting to send email. Subject: 'AUTOMATED: Daily Estimate Success Rate Report (2025-04-25)'
+[2025-04-25 16:08:16.716 +01:00] [chrisp] [PID:27852] [INFO    ] Email sent successfully to chrisp@harlowsolutions.co.uk. Subject: 'AUTOMATED: Daily Estimate Success Rate Report (2025-04-25)'
+[2025-04-25 16:08:16.731 +01:00] [chrisp] [PID:27852] [INFO    ] Auto Run: Email sent successfully.
+[2025-04-25 16:08:16.745 +01:00] [chrisp] [PID:27852] [ERROR   ] appsettings.json not found at '\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json'. Cannot save LastRunDate.
+[2025-04-25 16:08:16.758 +01:00] [chrisp] [PID:27852] [INFO    ] Auto Run: Daily report completed successfully.
+[2025-04-25 16:08:16.770 +01:00] [chrisp] [PID:27852] [DEBUG   ] Re-enabling controls after Auto Run.
+[2025-04-25 16:08:16.783 +01:00] [chrisp] [PID:27852] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 16:08:16.797 +01:00] [chrisp] [PID:27852] [DEBUG   ] Auto Run: Timer remains stopped as user disabled it.
+[2025-04-25 16:10:36.465 +01:00] [chrisp] [PID:26156] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-25 16:10:36.478 +01:00] [chrisp] [PID:26156] [INFO    ] Starting background log archiving process...
+[2025-04-25 16:10:36.489 +01:00] [chrisp] [PID:26156] [INFO    ] Archiving logs with last write time older than 2025-03-26.
+[2025-04-25 16:10:36.503 +01:00] [chrisp] [PID:26156] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-25 16:10:36.526 +01:00] [chrisp] [PID:26156] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-25 16:10:36.544 +01:00] [chrisp] [PID:26156] [INFO    ] Background log archiving process completed.
+[2025-04-25 16:10:36.553 +01:00] [chrisp] [PID:26156] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-25 16:10:36.761 +01:00] [chrisp] [PID:26156] [INFO    ] Form Loading...
+[2025-04-25 16:10:36.836 +01:00] [chrisp] [PID:26156] [INFO    ] LastRunDate is empty or not found in appsettings.json. Using default MinValue.
+[2025-04-25 16:10:36.882 +01:00] [chrisp] [PID:26156] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:10:36.896 +01:00] [chrisp] [PID:26156] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 16:10:36.906 +01:00] [chrisp] [PID:26156] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:10:36.916 +01:00] [chrisp] [PID:26156] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:10:36.952 +01:00] [chrisp] [PID:26156] [INFO    ] Theme applied: Dark Mode
+[2025-04-25 16:10:36.964 +01:00] [chrisp] [PID:26156] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:10:36.973 +01:00] [chrisp] [PID:26156] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 16:10:36.982 +01:00] [chrisp] [PID:26156] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:10:36.991 +01:00] [chrisp] [PID:26156] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:10:37.016 +01:00] [chrisp] [PID:26156] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 16:10:37.025 +01:00] [chrisp] [PID:26156] [INFO    ] Form Load Initialisation Complete.
+[2025-04-25 16:10:41.677 +01:00] [chrisp] [PID:26156] [INFO    ] Daily Auto Run Enabled.
+[2025-04-25 16:11:41.681 +01:00] [chrisp] [PID:26156] [DEBUG   ] Disabling controls for Auto Run.
+[2025-04-25 16:11:41.696 +01:00] [chrisp] [PID:26156] [INFO    ] Auto Run: Triggered for today (2025-04-25) at 16:11:41. Last run was 0001-01-01.
+[2025-04-25 16:11:41.709 +01:00] [chrisp] [PID:26156] [INFO    ] Auto Run: Starting automated daily report process...
+[2025-04-25 16:11:41.727 +01:00] [chrisp] [PID:26156] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 16:11:41.740 +01:00] [chrisp] [PID:26156] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 16:11:41.768 +01:00] [chrisp] [PID:26156] [INFO    ] Connected to pipe server.
+[2025-04-25 16:11:41.882 +01:00] [chrisp] [PID:26156] [DEBUG   ] Sent request (459 bytes): {"CrystalReportLocation":"\\\\HARLOW-DBVM02\\Tharstern\\Primo\\Reports\\Harlow\\Bespoke\\Estimate\\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt","ReportOutputLocation":"C:\\Users\\chrisp\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ReportDateFrom":"2025-04-25T00:00:00+01:00","ReportDateTo":"2025-04-25T00:00:00+01:00"}
+[2025-04-25 16:11:42.453 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 16:11:42.467 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 25/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 16:11:42.988 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report exported successfully to: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:11:43.035 +01:00] [chrisp] [PID:26156] [DEBUG   ] Expecting response length: 242
+[2025-04-25 16:11:43.047 +01:00] [chrisp] [PID:26156] [DEBUG   ] Received response (242 bytes): {"Success":true,"OutputPath":"C:\\Users\\chrisp\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Daily Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ErrorMessage":null}
+[2025-04-25 16:11:43.070 +01:00] [chrisp] [PID:26156] [INFO    ] Auto Run: Raw report generated: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Daily Reports\20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:11:43.083 +01:00] [chrisp] [PID:26156] [INFO    ] Auto Run: Deleted existing file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:11:43.227 +01:00] [chrisp] [PID:26156] [INFO    ] Ensured report output folder exists: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4
+[2025-04-25 16:11:43.240 +01:00] [chrisp] [PID:26156] [DEBUG   ] Using temporary file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_5122a0e8-5d2a-4718-a286-eac7bb5cb36e.xlsx
+[2025-04-25 16:11:44.161 +01:00] [chrisp] [PID:26156] [INFO    ] Cleared existing data (rows 2 onwards) from sheet 'DATA'.
+[2025-04-25 16:11:44.176 +01:00] [chrisp] [PID:26156] [DEBUG   ] Source dimensions: 64 rows, 13 cols. Start copy from R1C1.
+[2025-04-25 16:11:44.203 +01:00] [chrisp] [PID:26156] [INFO    ] Copied range A1:M64 from Sheet1 to DATA!A2.
+[2025-04-25 16:11:44.217 +01:00] [chrisp] [PID:26156] [DEBUG   ] Filename determined for Analysis sheet population: 20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:11:44.236 +01:00] [chrisp] [PID:26156] [INFO    ] Populated 'Analysis' with 36 unique customers starting at row 6.
+[2025-04-25 16:11:45.774 +01:00] [chrisp] [PID:26156] [INFO    ] Triggered calculation for sheet 'Analysis'.
+[2025-04-25 16:11:45.785 +01:00] [chrisp] [PID:26156] [INFO    ] Sheet 'Analysis' calculations performed.
+[2025-04-25 16:11:45.799 +01:00] [chrisp] [PID:26156] [DEBUG   ] Sheet 'Analysis': Total rows: 2000, Last customer found at row: 41 (Data starts row 6)
+[2025-04-25 16:11:45.813 +01:00] [chrisp] [PID:26156] [INFO    ] Clearing cell values (setting to null) in range B42:N2000 (below last customer row 41) in sheet 'Analysis'.
+[2025-04-25 16:11:45.876 +01:00] [chrisp] [PID:26156] [INFO    ] Cleared cell values in 1959 rows below the last customer.
+[2025-04-25 16:11:45.889 +01:00] [chrisp] [PID:26156] [INFO    ] Cleaned content below last customer in sheet 'Analysis'.
+[2025-04-25 16:11:46.105 +01:00] [chrisp] [PID:26156] [DEBUG   ] Saved changes to temporary file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_5122a0e8-5d2a-4718-a286-eac7bb5cb36e.xlsx
+[2025-04-25 16:11:46.639 +01:00] [chrisp] [PID:26156] [DEBUG   ] Brief delay completed after disposing destination package.
+[2025-04-25 16:11:46.654 +01:00] [chrisp] [PID:26156] [DEBUG   ] Generated final filename: 20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:11:46.666 +01:00] [chrisp] [PID:26156] [DEBUG   ] Full final file path: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:11:46.677 +01:00] [chrisp] [PID:26156] [INFO    ] Attempting to rename file.
+[2025-04-25 16:11:46.690 +01:00] [chrisp] [PID:26156] [INFO    ] Source (Temp): 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_5122a0e8-5d2a-4718-a286-eac7bb5cb36e.xlsx'
+[2025-04-25 16:11:46.701 +01:00] [chrisp] [PID:26156] [INFO    ] Destination (Final): 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx'
+[2025-04-25 16:11:46.715 +01:00] [chrisp] [PID:26156] [INFO    ] Successfully renamed/moved 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\temp_5122a0e8-5d2a-4718-a286-eac7bb5cb36e.xlsx' to 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx'.
+[2025-04-25 16:11:46.728 +01:00] [chrisp] [PID:26156] [INFO    ] Excel processing finished. Final file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:11:46.740 +01:00] [chrisp] [PID:26156] [INFO    ] Auto Run: Report processed: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:11:46.751 +01:00] [chrisp] [PID:26156] [INFO    ] Auto Run (DEBUG): Sending email to Debug recipients.
+[2025-04-25 16:11:46.771 +01:00] [chrisp] [PID:26156] [INFO    ] Preparing email...
+[2025-04-25 16:11:46.784 +01:00] [chrisp] [PID:26156] [DEBUG   ] Recipients added. To: chrisp@harlowsolutions.co.uk, CC: chrisp@harlowsolutions.co.uk
+[2025-04-25 16:11:46.806 +01:00] [chrisp] [PID:26156] [DEBUG   ] Attachment added: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Daily Reports\Apr\Apr Week 4\20250425_Estimate_Success_Rate_Daily.xlsx
+[2025-04-25 16:11:46.816 +01:00] [chrisp] [PID:26156] [INFO    ] Connecting to SMTP server: harlowsolutions-co-uk.mail.protection.outlook.com:25
+[2025-04-25 16:11:46.857 +01:00] [chrisp] [PID:26156] [DEBUG   ] Using provided SMTP credentials.
+[2025-04-25 16:11:46.869 +01:00] [chrisp] [PID:26156] [INFO    ] Attempting to send email. Subject: 'AUTOMATED: Daily Estimate Success Rate Report (2025-04-25)'
+[2025-04-25 16:11:47.675 +01:00] [chrisp] [PID:26156] [INFO    ] Email sent successfully to chrisp@harlowsolutions.co.uk. Subject: 'AUTOMATED: Daily Estimate Success Rate Report (2025-04-25)'
+[2025-04-25 16:11:47.689 +01:00] [chrisp] [PID:26156] [INFO    ] Auto Run: Email sent successfully.
+[2025-04-25 16:11:47.723 +01:00] [chrisp] [PID:26156] [INFO    ] Successfully saved LastRunDate (2025-04-25) to appsettings.json
+[2025-04-25 16:11:47.737 +01:00] [chrisp] [PID:26156] [INFO    ] Auto Run: Daily report completed successfully.
+[2025-04-25 16:11:47.749 +01:00] [chrisp] [PID:26156] [DEBUG   ] Re-enabling controls after Auto Run.
+[2025-04-25 16:11:47.762 +01:00] [chrisp] [PID:26156] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 16:11:47.776 +01:00] [chrisp] [PID:26156] [DEBUG   ] Auto Run: Timer remains stopped as user disabled it.
+[2025-04-25 16:22:17.751 +01:00] [chrisp] [PID:29320] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-25 16:22:17.767 +01:00] [chrisp] [PID:29320] [INFO    ] Starting background log archiving process...
+[2025-04-25 16:22:17.777 +01:00] [chrisp] [PID:29320] [INFO    ] Archiving logs with last write time older than 2025-03-26.
+[2025-04-25 16:22:17.789 +01:00] [chrisp] [PID:29320] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-25 16:22:17.799 +01:00] [chrisp] [PID:29320] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-25 16:22:17.811 +01:00] [chrisp] [PID:29320] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-25 16:22:17.824 +01:00] [chrisp] [PID:29320] [INFO    ] Background log archiving process completed.
+[2025-04-25 16:22:17.911 +01:00] [chrisp] [PID:29320] [INFO    ] Form Loading...
+[2025-04-25 16:22:18.000 +01:00] [chrisp] [PID:29320] [INFO    ] Successfully read LastRunDate from appsettings.json: 2025-04-25
+[2025-04-25 16:22:18.040 +01:00] [chrisp] [PID:29320] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:22:18.056 +01:00] [chrisp] [PID:29320] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 16:22:18.067 +01:00] [chrisp] [PID:29320] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:22:18.075 +01:00] [chrisp] [PID:29320] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:22:18.102 +01:00] [chrisp] [PID:29320] [INFO    ] Theme applied: Dark Mode
+[2025-04-25 16:22:18.112 +01:00] [chrisp] [PID:29320] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:22:18.122 +01:00] [chrisp] [PID:29320] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 16:22:18.132 +01:00] [chrisp] [PID:29320] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:22:18.142 +01:00] [chrisp] [PID:29320] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:22:18.158 +01:00] [chrisp] [PID:29320] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 16:22:18.168 +01:00] [chrisp] [PID:29320] [INFO    ] Form Load Initialisation Complete.
+[2025-04-25 16:23:16.401 +01:00] [chrisp] [PID:23068] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-25 16:23:16.419 +01:00] [chrisp] [PID:23068] [INFO    ] Starting background log archiving process...
+[2025-04-25 16:23:16.433 +01:00] [chrisp] [PID:23068] [INFO    ] Archiving logs with last write time older than 2025-03-26.
+[2025-04-25 16:23:16.455 +01:00] [chrisp] [PID:23068] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-25 16:23:16.467 +01:00] [chrisp] [PID:23068] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-25 16:23:16.478 +01:00] [chrisp] [PID:23068] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-25 16:23:16.555 +01:00] [chrisp] [PID:23068] [INFO    ] Background log archiving process completed.
+[2025-04-25 16:23:16.739 +01:00] [chrisp] [PID:23068] [INFO    ] Form Loading...
+[2025-04-25 16:23:16.835 +01:00] [chrisp] [PID:23068] [INFO    ] Successfully read LastRunDate from appsettings.json: 2025-04-25
+[2025-04-25 16:23:16.933 +01:00] [chrisp] [PID:23068] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:23:16.953 +01:00] [chrisp] [PID:23068] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 16:23:16.968 +01:00] [chrisp] [PID:23068] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:23:16.980 +01:00] [chrisp] [PID:23068] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:23:17.011 +01:00] [chrisp] [PID:23068] [INFO    ] Theme applied: Dark Mode
+[2025-04-25 16:23:17.024 +01:00] [chrisp] [PID:23068] [INFO    ] Report Type changed (Index 0). Range: 25/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:23:17.036 +01:00] [chrisp] [PID:23068] [DEBUG   ] Daily report selected. Showing Paul email label.
+[2025-04-25 16:23:17.048 +01:00] [chrisp] [PID:23068] [DEBUG   ] Template path for type 0: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:23:17.060 +01:00] [chrisp] [PID:23068] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:23:17.085 +01:00] [chrisp] [PID:23068] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 16:23:17.098 +01:00] [chrisp] [PID:23068] [INFO    ] Form Load Initialisation Complete.
+[2025-04-25 16:23:20.516 +01:00] [chrisp] [PID:23068] [INFO    ] Report Type changed (Index 1). Range: 12/04/2025 to 25/04/2025. ShowFinYear: True
+[2025-04-25 16:23:20.528 +01:00] [chrisp] [PID:23068] [DEBUG   ] Non-Daily report selected. Showing Femi checkbox.
+[2025-04-25 16:23:20.536 +01:00] [chrisp] [PID:23068] [DEBUG   ] Template path for type 1: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-25 16:23:20.544 +01:00] [chrisp] [PID:23068] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-25 16:23:21.028 +01:00] [chrisp] [PID:23068] [DEBUG   ] Create Report Button Clicked: Requesting Crystal Report generation.
+[2025-04-25 16:23:21.043 +01:00] [chrisp] [PID:23068] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-25 16:23:21.053 +01:00] [chrisp] [PID:23068] [INFO    ] Attempting Named Pipe communication...
+[2025-04-25 16:23:21.062 +01:00] [chrisp] [PID:23068] [DEBUG   ] Connecting to named pipe 'CrystalReportPipe'...
+[2025-04-25 16:23:21.078 +01:00] [chrisp] [PID:23068] [INFO    ] Connected to pipe server.
+[2025-04-25 16:23:21.178 +01:00] [chrisp] [PID:23068] [DEBUG   ] Sent request (460 bytes): {"CrystalReportLocation":"\\\\HARLOW-DBVM02\\Tharstern\\Primo\\Reports\\Harlow\\Bespoke\\Estimate\\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt","ReportOutputLocation":"C:\\Users\\chrisp\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Weekly Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ReportDateFrom":"2025-04-12T00:00:00+01:00","ReportDateTo":"2025-04-25T00:00:00+01:00"}
+[2025-04-25 16:23:21.710 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report loaded successfully from: \\HARLOW-DBVM02\Tharstern\Primo\Reports\Harlow\Bespoke\Estimate\Estimate Success Rate by Cust excl PCHR_tenders_CP.rpt
+[2025-04-25 16:23:21.710 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report parameters set: From = 12/04/2025 00:00:00, To = 25/04/2025 00:00:00
+[2025-04-25 16:23:22.523 +01:00] [WRAPPER] [PID:18084] [INFO    ] Report exported successfully to: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Weekly Reports\20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:23:22.559 +01:00] [chrisp] [PID:23068] [DEBUG   ] Expecting response length: 243
+[2025-04-25 16:23:22.581 +01:00] [chrisp] [PID:23068] [DEBUG   ] Received response (243 bytes): {"Success":true,"OutputPath":"C:\\Users\\chrisp\\Harlow Printing\\IT Projects - Documents\\Dashboard Datasets\\Raw_data\\Quotes conversion\\Estimate Reports Exports\\Weekly Reports\\20250425_EstimateSuccessReport_Raw.xlsx","ErrorMessage":null}
+[2025-04-25 16:23:22.601 +01:00] [chrisp] [PID:23068] [INFO    ] Report generated successfully by wrapper: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimate Reports Exports\Weekly Reports\20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:23:23.672 +01:00] [chrisp] [PID:23068] [DEBUG   ] Process & Email Button Clicked: Processing Excel report.
+[2025-04-25 16:23:23.799 +01:00] [chrisp] [PID:23068] [INFO    ] Ensured report output folder exists: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr
+[2025-04-25 16:23:23.808 +01:00] [chrisp] [PID:23068] [DEBUG   ] Using temporary file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\temp_97ecc307-9f75-452a-a5a9-a94a24c97e03.xlsx
+[2025-04-25 16:23:24.701 +01:00] [chrisp] [PID:23068] [INFO    ] Cleared existing data (rows 2 onwards) from sheet 'DATA'.
+[2025-04-25 16:23:24.735 +01:00] [chrisp] [PID:23068] [DEBUG   ] Source dimensions: 670 rows, 13 cols. Start copy from R1C1.
+[2025-04-25 16:23:24.816 +01:00] [chrisp] [PID:23068] [INFO    ] Copied range A1:M670 from Sheet1 to DATA!A2.
+[2025-04-25 16:23:24.832 +01:00] [chrisp] [PID:23068] [DEBUG   ] Filename determined for Analysis sheet population: 20250425_EstimateSuccessReport_Raw.xlsx
+[2025-04-25 16:23:24.853 +01:00] [chrisp] [PID:23068] [INFO    ] Populated 'Analysis' with 148 unique customers starting at row 6.
+[2025-04-25 16:23:28.214 +01:00] [chrisp] [PID:23068] [INFO    ] Triggered calculation for sheet 'Analysis'.
+[2025-04-25 16:23:28.226 +01:00] [chrisp] [PID:23068] [INFO    ] Sheet 'Analysis' calculations performed.
+[2025-04-25 16:23:28.238 +01:00] [chrisp] [PID:23068] [DEBUG   ] Sheet 'Analysis': Total rows: 2000, Last customer found at row: 153 (Data starts row 6)
+[2025-04-25 16:23:28.249 +01:00] [chrisp] [PID:23068] [INFO    ] Clearing cell values (setting to null) in range B154:N2000 (below last customer row 153) in sheet 'Analysis'.
+[2025-04-25 16:23:28.278 +01:00] [chrisp] [PID:23068] [INFO    ] Cleared cell values in 1847 rows below the last customer.
+[2025-04-25 16:23:28.292 +01:00] [chrisp] [PID:23068] [INFO    ] Cleaned content below last customer in sheet 'Analysis'.
+[2025-04-25 16:23:28.305 +01:00] [chrisp] [PID:23068] [INFO    ] Opening weekly report file for appending: C:\Users\chrisp\Harlow Printing\IT - Documents\PowerBI\Quote Conversion Report\Quotes conversion data_wrangled\weekly report quotes conversion merged - copy.xlsx
+[2025-04-25 16:23:28.374 +01:00] [chrisp] [PID:23068] [DEBUG   ] Next free row in weekly report sheet '2024_25' is 145.
+[2025-04-25 16:23:28.388 +01:00] [chrisp] [PID:23068] [DEBUG   ] Using FINAL weekly filename for weekly report append: 20250425 Estimate Success Rate.xlsx
+[2025-04-25 16:23:28.403 +01:00] [chrisp] [PID:23068] [INFO    ] Copied values for 148 rows from 'Analysis' to weekly report sheet '2024_25'.
+[2025-04-25 16:23:28.581 +01:00] [chrisp] [PID:23068] [INFO    ] Successfully appended data to sheet '2024_25' in 'C:\Users\chrisp\Harlow Printing\IT - Documents\PowerBI\Quote Conversion Report\Quotes conversion data_wrangled\weekly report quotes conversion merged - copy.xlsx'.
+[2025-04-25 16:23:28.616 +01:00] [chrisp] [PID:23068] [INFO    ] Data appended to central weekly report.
+[2025-04-25 16:23:28.829 +01:00] [chrisp] [PID:23068] [DEBUG   ] Saved changes to temporary file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\temp_97ecc307-9f75-452a-a5a9-a94a24c97e03.xlsx
+[2025-04-25 16:23:29.354 +01:00] [chrisp] [PID:23068] [DEBUG   ] Brief delay completed after disposing destination package.
+[2025-04-25 16:23:29.368 +01:00] [chrisp] [PID:23068] [DEBUG   ] Generated final filename: 20250425 Estimate Success Rate.xlsx
+[2025-04-25 16:23:29.387 +01:00] [chrisp] [PID:23068] [DEBUG   ] Full final file path: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\20250425 Estimate Success Rate.xlsx
+[2025-04-25 16:23:29.399 +01:00] [chrisp] [PID:23068] [INFO    ] Attempting to rename file.
+[2025-04-25 16:23:29.410 +01:00] [chrisp] [PID:23068] [INFO    ] Source (Temp): 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\temp_97ecc307-9f75-452a-a5a9-a94a24c97e03.xlsx'
+[2025-04-25 16:23:29.422 +01:00] [chrisp] [PID:23068] [INFO    ] Destination (Final): 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\20250425 Estimate Success Rate.xlsx'
+[2025-04-25 16:23:29.435 +01:00] [chrisp] [PID:23068] [INFO    ] Successfully renamed/moved 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\temp_97ecc307-9f75-452a-a5a9-a94a24c97e03.xlsx' to 'C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\20250425 Estimate Success Rate.xlsx'.
+[2025-04-25 16:23:29.447 +01:00] [chrisp] [PID:23068] [INFO    ] Excel processing finished. Final file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\20250425 Estimate Success Rate.xlsx
+[2025-04-25 16:23:29.459 +01:00] [chrisp] [PID:23068] [INFO    ] Excel processing completed. Final file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\20250425 Estimate Success Rate.xlsx
+[2025-04-25 16:23:29.471 +01:00] [chrisp] [PID:23068] [INFO    ] Preparing completion email with attachment: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\20250425 Estimate Success Rate.xlsx
+[2025-04-25 16:23:29.482 +01:00] [chrisp] [PID:23068] [INFO    ] DEBUG Build: Using debug email recipients.
+[2025-04-25 16:23:29.493 +01:00] [chrisp] [PID:23068] [DEBUG   ] To Addresses (Default Logic): chrisp@harlowsolutions.co.uk
+[2025-04-25 16:23:29.518 +01:00] [chrisp] [PID:23068] [DEBUG   ] CC Addresses (Default Logic): chrisp@harlowsolutions.co.uk
+[2025-04-25 16:23:29.539 +01:00] [chrisp] [PID:23068] [INFO    ] Preparing email...
+[2025-04-25 16:23:29.553 +01:00] [chrisp] [PID:23068] [DEBUG   ] Recipients added. To: chrisp@harlowsolutions.co.uk, CC: chrisp@harlowsolutions.co.uk
+[2025-04-25 16:23:29.576 +01:00] [chrisp] [PID:23068] [DEBUG   ] Attachment added: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\20250425 Estimate Success Rate.xlsx
+[2025-04-25 16:23:29.588 +01:00] [chrisp] [PID:23068] [INFO    ] Connecting to SMTP server: harlowsolutions-co-uk.mail.protection.outlook.com:25
+[2025-04-25 16:23:29.629 +01:00] [chrisp] [PID:23068] [DEBUG   ] Using provided SMTP credentials.
+[2025-04-25 16:23:29.639 +01:00] [chrisp] [PID:23068] [INFO    ] Attempting to send email. Subject: 'Weekly Estimate Success Rate Report (2025-04-25)'
+[2025-04-25 16:23:30.812 +01:00] [chrisp] [PID:23068] [INFO    ] Email sent successfully to chrisp@harlowsolutions.co.uk. Subject: 'Weekly Estimate Success Rate Report (2025-04-25)'
+[2025-04-25 16:23:30.827 +01:00] [chrisp] [PID:23068] [INFO    ] Email sent successfully.
+[2025-04-25 16:23:32.356 +01:00] [chrisp] [PID:23068] [DEBUG   ] Resetting UI state. Button 1 text: 'Create Report'
+[2025-04-25 16:23:45.858 +01:00] [chrisp] [PID:23068] [INFO    ] Attempting to open processed analysis file: C:\Users\chrisp\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\Estimates\Weekly Reports\Apr\20250425 Estimate Success Rate.xlsx
+[2025-04-25 16:23:46.153 +01:00] [chrisp] [PID:23068] [INFO    ] Successfully initiated opening of processed analysis file file.

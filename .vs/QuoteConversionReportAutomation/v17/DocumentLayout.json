@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\excelcopydataclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\flexiblemessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\protecteddatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\openfileclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\foldercreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044E74D-0103-4DF3-AE71-06EE05170E74}|conversionTest\\QuoteConversionReportAutomation.csproj|\\\\harlow.local\\dfs\\it department\\applications\\development 2025\\quoteconversionreportautomation\\conversiontest\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OpenFileClass.cs",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\OpenFileClass.cs",
+              "RelativeDocumentMoniker": "conversionTest\\OpenFileClass.cs",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\OpenFileClass.cs",
+              "RelativeToolTip": "conversionTest\\OpenFileClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T09:46:42.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlexibleMessageBox.cs",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\FlexibleMessageBox.cs",
+              "RelativeDocumentMoniker": "conversionTest\\FlexibleMessageBox.cs",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\FlexibleMessageBox.cs",
+              "RelativeToolTip": "conversionTest\\FlexibleMessageBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T09:45:54.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\appsettings.json",
+              "RelativeDocumentMoniker": "conversionTest\\appsettings.json",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\appsettings.json",
+              "RelativeToolTip": "conversionTest\\appsettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-25T15:12:54.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\Form1.cs",
+              "RelativeDocumentMoniker": "conversionTest\\Form1.cs",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\Form1.cs [Design]",
+              "RelativeToolTip": "conversionTest\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:59:48.538Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "conversionTest\\Form1.Designer.cs",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\Form1.Designer.cs",
+              "RelativeToolTip": "conversionTest\\Form1.Designer.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAawOAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:07:32.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\EmailSender.cs",
+              "RelativeDocumentMoniker": "conversionTest\\EmailSender.cs",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\EmailSender.cs",
+              "RelativeToolTip": "conversionTest\\EmailSender.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAmwNQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:17:22.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProtectedDataHelper.cs",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\ProtectedDataHelper.cs",
+              "RelativeDocumentMoniker": "conversionTest\\ProtectedDataHelper.cs",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\ProtectedDataHelper.cs",
+              "RelativeToolTip": "conversionTest\\ProtectedDataHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:15:24.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FolderCreation.cs",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\FolderCreation.cs",
+              "RelativeDocumentMoniker": "conversionTest\\FolderCreation.cs",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\FolderCreation.cs",
+              "RelativeToolTip": "conversionTest\\FolderCreation.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAmwLIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:42:15.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExcelCopyDataClass.cs",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\ExcelCopyDataClass.cs",
+              "RelativeDocumentMoniker": "conversionTest\\ExcelCopyDataClass.cs",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\ExcelCopyDataClass.cs",
+              "RelativeToolTip": "conversionTest\\ExcelCopyDataClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgBAAC0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:57:50.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\Program.cs",
+              "RelativeDocumentMoniker": "conversionTest\\Program.cs",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\Program.cs",
+              "RelativeToolTip": "conversionTest\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:47:10.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\Form1.cs",
+              "RelativeDocumentMoniker": "conversionTest\\Form1.cs",
+              "ToolTip": "\\\\harlow.local\\DFS\\IT Department\\Applications\\Development 2025\\QuoteConversionReportAutomation\\conversionTest\\Form1.cs",
+              "RelativeToolTip": "conversionTest\\Form1.cs",
+              "ViewState": "AgIAAHcCAAAAAAAAAAAEwIkCAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:45:44.22Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

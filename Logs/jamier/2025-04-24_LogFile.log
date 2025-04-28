@@ -1,0 +1,61 @@
+[2025-04-24 14:26:28.286 +01:00] [jamier] [PID:18436] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-24 14:26:28.307 +01:00] [jamier] [PID:18436] [INFO    ] Starting background log archiving process...
+[2025-04-24 14:26:28.325 +01:00] [jamier] [PID:18436] [INFO    ] Archiving logs with last write time older than 2025-03-25.
+[2025-04-24 14:26:28.348 +01:00] [jamier] [PID:18436] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-24 14:26:28.361 +01:00] [jamier] [PID:18436] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-24 14:26:28.378 +01:00] [jamier] [PID:18436] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-24 14:26:28.394 +01:00] [jamier] [PID:18436] [INFO    ] Background log archiving process completed.
+[2025-04-24 14:26:28.548 +01:00] [jamier] [PID:18436] [INFO    ] Form Loading...
+[2025-04-24 14:26:28.631 +01:00] [jamier] [PID:18436] [INFO    ] Report Type changed (Index 0). Range: 24/04/2025 to 24/04/2025. ShowFinYear: True
+[2025-04-24 14:26:28.674 +01:00] [jamier] [PID:18436] [DEBUG   ] Template path for type 0: C:\Users\jamier\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-24 14:26:28.701 +01:00] [jamier] [PID:18436] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-24 14:26:28.751 +01:00] [jamier] [PID:18436] [INFO    ] Report Type changed (Index 0). Range: 24/04/2025 to 24/04/2025. ShowFinYear: True
+[2025-04-24 14:26:28.767 +01:00] [jamier] [PID:18436] [DEBUG   ] Template path for type 0: C:\Users\jamier\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-24 14:26:28.783 +01:00] [jamier] [PID:18436] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-24 14:26:28.810 +01:00] [jamier] [PID:18436] [INFO    ] Report Type changed (Index 0). Range: 24/04/2025 to 24/04/2025. ShowFinYear: True
+[2025-04-24 14:26:28.827 +01:00] [jamier] [PID:18436] [DEBUG   ] Template path for type 0: C:\Users\jamier\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-24 14:26:28.843 +01:00] [jamier] [PID:18436] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-24 14:26:28.865 +01:00] [jamier] [PID:18436] [WARNING ] Wrapper process 'CrystalReportWrapper' not found. Attempting to launch...
+[2025-04-24 14:26:28.886 +01:00] [jamier] [PID:18436] [INFO    ] Launching wrapper: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Crystal Reports Wrapper\CrystalReportWrapper\CrystalReportWrapper\bin\Debug\CrystalReportWrapper.exe
+[2025-04-24 14:26:29.161 +01:00] [jamier] [PID:18436] [INFO    ] Wrapper launch command initiated for '\\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Crystal Reports Wrapper\CrystalReportWrapper\CrystalReportWrapper\bin\Debug\CrystalReportWrapper.exe'.
+[2025-04-24 14:26:29.581 +01:00] [WRAPPER] [PID:22024] [INFO    ] Crystal Report Wrapper started.
+[2025-04-24 14:26:32.192 +01:00] [jamier] [PID:18436] [INFO    ] Wrapper process 'CrystalReportWrapper' appears to be running after launch.
+[2025-04-24 14:26:32.204 +01:00] [jamier] [PID:18436] [INFO    ] Form Load Initialisation Complete.
+[2025-04-24 14:31:53.489 +01:00] [jamier] [PID:22408] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-24 14:31:53.511 +01:00] [jamier] [PID:22408] [INFO    ] Starting background log archiving process...
+[2025-04-24 14:31:53.524 +01:00] [jamier] [PID:22408] [INFO    ] Archiving logs with last write time older than 2025-03-25.
+[2025-04-24 14:31:53.538 +01:00] [jamier] [PID:22408] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-24 14:31:53.552 +01:00] [jamier] [PID:22408] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-24 14:31:53.571 +01:00] [jamier] [PID:22408] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-24 14:31:53.596 +01:00] [jamier] [PID:22408] [INFO    ] Background log archiving process completed.
+[2025-04-24 14:31:53.710 +01:00] [jamier] [PID:22408] [INFO    ] Form Loading...
+[2025-04-24 14:31:53.764 +01:00] [jamier] [PID:22408] [INFO    ] Report Type changed (Index 0). Range: 24/04/2025 to 24/04/2025. ShowFinYear: True
+[2025-04-24 14:31:53.790 +01:00] [jamier] [PID:22408] [DEBUG   ] Template path for type 0: C:\Users\jamier\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-24 14:31:53.803 +01:00] [jamier] [PID:22408] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-24 14:31:53.831 +01:00] [jamier] [PID:22408] [INFO    ] Report Type changed (Index 0). Range: 24/04/2025 to 24/04/2025. ShowFinYear: True
+[2025-04-24 14:31:53.856 +01:00] [jamier] [PID:22408] [DEBUG   ] Template path for type 0: C:\Users\jamier\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-24 14:31:53.876 +01:00] [jamier] [PID:22408] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-24 14:31:53.915 +01:00] [jamier] [PID:22408] [INFO    ] Report Type changed (Index 0). Range: 24/04/2025 to 24/04/2025. ShowFinYear: True
+[2025-04-24 14:31:53.931 +01:00] [jamier] [PID:22408] [DEBUG   ] Template path for type 0: C:\Users\jamier\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-24 14:31:53.947 +01:00] [jamier] [PID:22408] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-24 14:31:53.970 +01:00] [jamier] [PID:22408] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-24 14:31:53.983 +01:00] [jamier] [PID:22408] [INFO    ] Form Load Initialisation Complete.
+[2025-04-24 14:37:34.104 +01:00] [jamier] [PID:15448] [INFO    ] Configuration loaded successfully from: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\appsettings.json
+[2025-04-24 14:37:34.130 +01:00] [jamier] [PID:15448] [INFO    ] Starting background log archiving process...
+[2025-04-24 14:37:34.145 +01:00] [jamier] [PID:15448] [INFO    ] Archiving logs with last write time older than 2025-03-25.
+[2025-04-24 14:37:34.162 +01:00] [jamier] [PID:15448] [INFO    ] EmailUtility initialized: Server=harlowsolutions-co-uk.mail.protection.outlook.com, Port=25, User=chrisp@harlowsolutions.co.uk, SSL=False
+[2025-04-24 14:37:34.176 +01:00] [jamier] [PID:15448] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\chrisp
+[2025-04-24 14:37:34.193 +01:00] [jamier] [PID:15448] [DEBUG   ] Checking directory for archiving: \\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\Logs\jamier
+[2025-04-24 14:37:34.212 +01:00] [jamier] [PID:15448] [INFO    ] Background log archiving process completed.
+[2025-04-24 14:37:34.340 +01:00] [jamier] [PID:15448] [INFO    ] Form Loading...
+[2025-04-24 14:37:34.380 +01:00] [jamier] [PID:15448] [INFO    ] Report Type changed (Index 0). Range: 24/04/2025 to 24/04/2025. ShowFinYear: True
+[2025-04-24 14:37:34.396 +01:00] [jamier] [PID:15448] [DEBUG   ] Template path for type 0: C:\Users\jamier\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-24 14:37:34.407 +01:00] [jamier] [PID:15448] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-24 14:37:34.432 +01:00] [jamier] [PID:15448] [INFO    ] Report Type changed (Index 0). Range: 24/04/2025 to 24/04/2025. ShowFinYear: True
+[2025-04-24 14:37:34.442 +01:00] [jamier] [PID:15448] [DEBUG   ] Template path for type 0: C:\Users\jamier\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-24 14:37:34.453 +01:00] [jamier] [PID:15448] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-24 14:37:34.475 +01:00] [jamier] [PID:15448] [INFO    ] Report Type changed (Index 0). Range: 24/04/2025 to 24/04/2025. ShowFinYear: True
+[2025-04-24 14:37:34.488 +01:00] [jamier] [PID:15448] [DEBUG   ] Template path for type 0: C:\Users\jamier\Harlow Printing\IT Projects - Documents\Dashboard Datasets\Raw_data\Quotes conversion\TEMPLATE\TEMPLATE_Estimate Success Rate.xlsx
+[2025-04-24 14:37:34.499 +01:00] [jamier] [PID:15448] [DEBUG   ] Resetting button states due to report type change.
+[2025-04-24 14:37:34.516 +01:00] [jamier] [PID:15448] [INFO    ] Wrapper process 'CrystalReportWrapper' is already running.
+[2025-04-24 14:37:34.527 +01:00] [jamier] [PID:15448] [INFO    ] Form Load Initialisation Complete.
