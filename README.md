@@ -11,7 +11,7 @@ Automates the running of the Daily, Weekly, Monthly, Quarterly, or Annual report
 * **Bug Fixes & Improvements**
     * Refactored `FlexibleMessageBox.cs` to use the latest C# features.
     * Fixed bug where Rich Text was not showing in the message box.
-
+    * 
 ---
 
 ### Version 1.4.10
