@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>\\harlow.local\DFS\IT Department\Applications\Development 2025\QuoteConversionReportAutomation\conversionTest\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Forms\AnalysisOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DateRangeSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ManageAutoReportDefinitionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ManageBankHolidaysForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ManageEmailRecipientsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ManageGreetingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,92 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red120\green220\blue250;\red220\green220\blue220;\red180\green210\blue180;\red100\green180\blue220;\red255\green210\blue100;\red255\green160\blue160;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\b\f0\fs32{APP_NAME} v{APP_VERSION}\cf2\b0\fs20\par
+\par
+\cf1\b\fs24 Introduction\cf2\b0\fs20\par
+\pard\sa200\sl276\slmult1\cf2 Welcome to the {APP_NAME} program! This document serves as the complete technical and user guide for the application. Its purpose is to streamline and automate the process of generating, processing, and distributing various quote conversion reports. It is designed to be highly configurable to adapt to changing business needs.\par
+\par
+\cf1\b\fs24 Core Architecture and Workflow\cf2\b0\fs20\par
+\pard\sa200\sl276\slmult1\cf2 Understanding the application's workflow is key to troubleshooting it. The process is as follows:\par
+
+\pard\fi-360\li720\cf2  \f1\'b7\tab\b\f0 1. Request Initiation:\b0  A report is requested either manually by a user via the UI, or automatically by the scheduled Auto-Run service.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\b\f0 2. Communication with Wrapper:\b0  The main application sends a `ReportRequest` to an external service, \cf3 `CrystalReportWrapper.exe`\cf2 , via a Windows Named Pipe. This isolates the main application from the database and Crystal Reports engine for stability.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\b\f0 3. Raw Data Extraction:\b0  The wrapper service connects to the business system, runs the configured Crystal Report (`.rpt`) file, and exports the raw data into a new Excel (`.xlsx`) file in a temporary location.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\b\f0 4. Excel Processing:\b0  The main application opens this raw data file and a master Excel template (\cf3 {EXCEL_TEMPLATE_FILENAME}\cf2 ). It copies the raw data into the template's "DATA" sheet, applies filters if required (e.g., for the 'Daily >= {DAILY_FILTER_THRESHOLD}' report), and refreshes all formulas and pivot tables in the template's "Analysis" and other sheets.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\b\f0 5. Finalisation & Distribution:\b0  The processed Excel file is saved to its final network location. If not skipped, the application then constructs an email, attaches the final report, and sends it to the configured recipient list via SMTP.\par
+
+\pard\sa200\sl276\slmult1\par
+\cf1\b\fs24 The Configuration System Explained\cf2\b0\fs20\par
+\pard\sa200\sl276\slmult1\cf2 The application uses a hierarchical configuration system, which is crucial for providing both stable defaults and user flexibility.\par
+
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Level 1: Application Defaults (`appsettings.json`):\b0  This is the master configuration file, located in the application's network directory. It defines the default behavior for \i all\i0  users. This includes critical paths, SMTP server details, default recipient lists, etc. It should only be modified by an administrator via the \cf5\b Settings...\cf2\b0  menu.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Level 2: User-Specific Overrides (*.json in AppData):\b0  A user can create personal overrides for certain settings (Email Recipients, Greetings, Bank Holidays). These are saved to JSON files in their personal AppData folder (\cf3 %APPDATA%\\HarlowSolutions\\QuoteConversionReportAutomation\\\cf2 ). \b These overrides only affect the user who created them and always take precedence over the application defaults.\b0  This allows for safe testing or custom workflows without impacting other users.\par
+
+\pard\sa200\sl276\slmult1\par
+\cf1\b\fs24 A Step-by-Step Guide to Manual Report Generation\cf2\b0\fs20\par
+\pard\sa200\sl276\slmult1\cf2 Follow this process to create a report on-demand.\par
+
+\pard\sa200\sl276\slmult1\cf2 \b 1. Select a Report Type:\b0  Use the \cf5\b Report Type\cf2\b0  dropdown. This choice pre-configures the report's date range and logic.\par
+\pard\sa200\sl276\slmult1\cf2 \b 2. Verify Dates and Financial Year:\b0  The \cf5\b From\cf2\b0  and \cf5\b To\cf2\b0  dates will auto-populate. If you are running a `Weekly` or `Custom` report, ensure the correct \cf5\b Financial Year\cf2\b0  is selected, as this is used for Power BI integration.\par
+\pard\sa200\sl276\slmult1\cf2 \b 3. Configure Report Options:\b0  Use the checkboxes to fine-tune the output:\par
+
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Send to only Femi?:\b0  Check this to send the report to a restricted admin/testing email list instead of the main business recipients.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Skip Sending Email:\b0  Check this to only generate the Excel file locally without sending any email.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Include Lead Time Analysis Sheet:\b0  Check this to add an extra worksheet to the report that calculates statistics on the time taken to convert estimates to orders.\par
+
+\pard\sa200\sl276\slmult1\cf2 \b 4. Generate the Report:\b0  Depending on your selected mode (toggle in the `Options` menu):\par
+
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Standard Mode:\b0  Click \cf5\b Create Report\cf2\b0 . Watch the status bar. When it says "Raw report created successfully," the \cf5\b Process & Email\cf2\b0  button will become active. Click it to finish the process.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 1-Click Mode:\b0  Click the single \cf5\b Generate, Process & Email Report\cf2\b0  button. The application will perform all steps sequentially. Watch the status bar for progress updates.\par
+
+\pard\sa200\sl276\slmult1\cf2 \b 5. View the Results:\b0  After the relevant steps are complete, buttons will appear:\par
+
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 View Raw File:\b0  Appears after step 3. Opens the raw, unfiltered data exported from Crystal Reports.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 View Processed File:\b0  Appears after step 4. Opens the final, fully formatted and analyzed report from the template.\par
+
+\pard\sa200\sl276\slmult1\par
+\cf1\b\fs24 Menus Explained in Detail\cf2\b0\fs20\par
+\par
+\cf4\b\fs22 The "Options" Menu\cf2\b0\fs20\par
+
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Manage Automated Reports...:\b0  This is the control centre for all scheduled reports. It opens a window where you can add, edit, duplicate, or delete report definitions. Each definition specifies the report type, schedule (e.g., daily or a specific day of the week), and email details. You can enable or disable individual reports here without deleting them.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Batch Regenerate Reports...:\b0  An administrative tool used to re-create a series of historical reports. For example, if a template was updated, you could use this to regenerate all 'Monthly' reports for the last year to apply the new format. \cf6\i This can be a long-running process and will overwrite existing files.\cf2\i0\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Generate Retrospective Lead Time Analysis...:\b0  A powerful analysis tool. It allows you to select a folder containing many historical report files. The tool will then scan all of them, extract the lead time data, and generate a single, new Excel spreadsheet summarizing the findings. \cf6\i Note: This only works if the source report files are of a compatible format and contain the necessary 'Date' (Estimate Date) and 'Order Date' columns.\cf2\i0\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Manage Custom Bank Holidays...:\b0  Define company-specific holidays. These are crucial for ensuring "working day" calculations are accurate.\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Manage Email Recipients / Greetings...:\b0  Set custom email lists and greetings that override the application defaults for your user account only.\par
+
+\pard\sa200\sl276\slmult1\cf4\b\fs22 The "Settings..." Menu\cf2\b0\fs20\par
+\pard\sa200\sl276\slmult1\cf2 The \cf5\b Settings...\cf2\b0  menu opens a comprehensive window to modify the application's core default settings stored in \cf3 `appsettings.json`\cf2 . \cf6\i Changes here affect the default behavior for all users.\cf2\i0\par
+
+\pard\fi-360\li720\cf2  \f1\'b7\tab\cf5\b\f0 Paths Tab:\b0  The most critical tab. Here you define the locations of all key files and directories. This includes the full UNC path to the `.rpt` file, the `CrystalReportWrapper.exe`, and the parent directories for templates and report outputs. You also set the filename of the Excel template here.\par
+   \f1\'b7\tab\cf5\b\f0 SMTP & Email Defaults Tabs:\b0  Configure the mail server details (server, port, credentials) and the default sender information (From address, display name, signature).\par
+   \f1\'b7\tab\cf5\b\f0 Operational Parameters Tab:\b0  Fine-tune the application's logic. You can change the financial year start date, the monetary threshold for filtered reports, the names of sheets inside the Excel template, and, importantly, the list of \b Posting Codes\b0  used by the `New Customer Report`.\par
+
+\pard\sa200\sl276\slmult1\par
+\cf1\b\fs24 Troubleshooting & FAQ\cf2\b0\fs20\par
+\par
+\cf4\b\fs22 Troubleshooting Common Issues\cf2\b0\fs20\par
+
+\pard\fi-360\li720\cf2  \f1\'b7\tab\b\f0 "Config Error" Status:\b0  This almost always means a path in the `Settings -> Paths` tab is incorrect. Use \cf5\b Options -> View Configuration\cf2\b0  to see which path is failing. Ensure the file/folder exists and the application has permission to access it (especially for network UNC paths).\par
+   \f1\'b7\tab\b\f0 Report Generation Fails / Times Out:\b0  This usually points to the `CrystalReportWrapper.exe`. Check that the path to it is correct in Settings. Open Task Manager and check if the process is listed. If not, try to run it manually from its location. If it is running, check antivirus/firewall logs.\par
+   \f1\'b7\tab\b\f0 Excel Processing Fails:\b0  Verify the `Excel Template Filename` in `Settings -> Paths` is correct and the file exists in the `Template Base Dir`. The template itself could be corrupt or missing a required sheet name (e.g., "DATA", "Analysis"). The required sheet names are also configurable in Settings.\par
+   \f1\'b7\tab\b\f0 User Settings Not Applying:\b0  The user's override files may be corrupt. Navigate to \cf3 %APPDATA%\\HarlowSolutions\\QuoteConversionReportAutomation\\\cf2  and delete the relevant `.json` file (e.g., `user_email_settings.json`). This will cause the application to fall back to the defaults in `appsettings.json`.\par
+   \f1\'b7\tab\cf6\b\f0 Always Check Application Logs:\cf2\b0  This is the most important step for any issue. The logs provide detailed error messages and stack traces that pinpoint the problem. Access via \cf5\b Options -> Open Logs Folder\cf2\b0 .\par
+
+\pard\sa200\sl276\slmult1\par
+\cf4\b\fs22 Frequently Asked Questions\cf2\b0\fs20\par
+
+\pard\fi-360\li720\cf2  \f1\'b7\tab\b\f0 Q: What's the difference between the `Settings...` menu and the `Manage...` options?\cf2\b0\par
+\pard\li720\cf2 \b A:\b0  `Settings...` edits the application-wide \b defaults\b0  stored in the central \cf3 `appsettings.json`\cf2  file. `Manage...` options create \b user-specific overrides\b0  stored in personal files. Overrides always take precedence over defaults for that specific user.\par
+\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\b\f0 Q: Where are the user-specific settings stored?\cf2\b0\par
+\pard\li720\cf2 \b A:\b0  In the user's profile at: \cf3 %APPDATA%\\HarlowSolutions\\QuoteConversionReportAutomation\\\cf2 . Deleting the JSON files here will reset that user's settings to the application defaults.\par
+\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\b\f0 Q: How do I add a new type of automated report that runs on the 15th of every month?\cf2\b0\par
+\pard\li720\cf2 \b A:\b0  The current system supports automated reports that run daily or on a specific day of the week (e.g., every Friday). A schedule for a specific day of the month (e.g., the 15th) is not a built-in feature and would require a code change by a developer.\par
+\par
+\pard\fi-360\li720\cf2  \f1\'b7\tab\b\f0 Q: Can I change the columns in the final report?\cf2\b0\par
+\pard\li720\cf2 \b A:\b0  The columns in the \i raw data\i0  are defined by the Crystal Report (`.rpt`) file configured in Settings; changes must be made in the Crystal Reports development environment. The columns and formulas in the \i final analysis\i0  are defined by the Excel template file (`{EXCEL_TEMPLATE_FILENAME}`); changes must be made there.\par
+\par
+\pard\sa200\sl276\slmult1\cf2 Thank you for using the {APP_NAME} program!\par
+}
